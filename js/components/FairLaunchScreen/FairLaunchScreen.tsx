@@ -1,24 +1,21 @@
-import styles from "./DescriptionScreen.module.css";
+import styles from "./FairLaunchScreen.module.css";
 
-const DescriptionScreen = (props: {goNext : () => void, goToMenu: () => void}) => {
+const TheGameScreen = (props: {goToMenu: () => void}) => {
     return (
         <div className={`screen-container ${styles.container}`}>
             <div className="top-icons">
                 <img onClick={props.goToMenu} src="/assets/Logo.png"/>
-                <img onClick={props.goNext} src="/assets/Bin_Open.png"/>
+                <img src="/assets/Bin_Open.png"/>
             </div>
             <div className={styles.mainContainer}>
-                <div className={styles.coverImageContainer}>
-                    <img className={styles.coverImage} src="/characters/TrashKing.png" />
-                </div>
                 <div className={styles.textContainer}>
-                    <h1>
-                        WAGMI
-                    </h1>
-                    <p>Trash Pandas,above all,believe WAGMI. And because
+                    <h1>FAIR LAUNCH</h1>
+                    <p>
+                        Trash Pandas,above all,believe WAGMI. And because
                         of that, everyone who holds a Degenerate Ape at
                         Midnight PST on October 31st, 2021 will get 1:1
-                        (the equivalent Candy Machine tokens to redeem)</p>
+                        (the equivalent Candy Machine tokens to redeem)
+                    </p>
                     <p>
                         Because WAGMI,Trash Pandas will be a FairLaunch.
                         What’s that? A fair launch means there’sa 24 hour
@@ -28,9 +25,12 @@ const DescriptionScreen = (props: {goNext : () => void, goToMenu: () => void}) =
                         totally fungible tokens,but you can redeem it for
                     </p>
                 </div>
+                <img className={styles.coverImage} src={"/assets/Fair_Launch.png"}/>
+
             </div>
+
         </div>
     )
 }
 
-export default DescriptionScreen
+export default TheGameScreen

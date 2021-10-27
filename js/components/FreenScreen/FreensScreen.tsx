@@ -1,6 +1,6 @@
-import styles from "./DescriptionScreen.module.css";
+import styles from "./FreensScreen.module.css";
 
-const DescriptionScreen = (props: {goNext : () => void, goToMenu: () => void}) => {
+const FreensScreen = (props: {goNext : () => void, goToMenu: () => void}) => {
     return (
         <div className={`screen-container ${styles.container}`}>
             <div className="top-icons">
@@ -8,17 +8,14 @@ const DescriptionScreen = (props: {goNext : () => void, goToMenu: () => void}) =
                 <img onClick={props.goNext} src="/assets/Bin_Open.png"/>
             </div>
             <div className={styles.mainContainer}>
-                <div className={styles.coverImageContainer}>
-                    <img className={styles.coverImage} src="/characters/TrashKing.png" />
-                </div>
                 <div className={styles.textContainer}>
-                    <h1>
-                        WAGMI
-                    </h1>
-                    <p>Trash Pandas,above all,believe WAGMI. And because
+                    <h3>Freens</h3>
+                    <p>
+                        Trash Pandas,above all,believe WAGMI. And because
                         of that, everyone who holds a Degenerate Ape at
                         Midnight PST on October 31st, 2021 will get 1:1
-                        (the equivalent Candy Machine tokens to redeem)</p>
+                        (the equivalent Candy Machine tokens to redeem)
+                    </p>
                     <p>
                         Because WAGMI,Trash Pandas will be a FairLaunch.
                         What’s that? A fair launch means there’sa 24 hour
@@ -28,9 +25,23 @@ const DescriptionScreen = (props: {goNext : () => void, goToMenu: () => void}) =
                         totally fungible tokens,but you can redeem it for
                     </p>
                 </div>
+                <div className={styles.imageContainer}>
+                    <img src={"/characters/Red_Panda.png"} />
+                </div>
+                <div>
+                    <h1>+</h1>
+                </div>
+                <div className={styles.imageContainer}>
+                    <img src={"/characters/Red_Ape.png"} />
+                </div>
+
+
+
+
             </div>
+
         </div>
     )
 }
 
-export default DescriptionScreen
+export default FreensScreen

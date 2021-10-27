@@ -41,7 +41,7 @@ a {
   z-index: 1;
 }
 
-.top-icons > img:last-child {
+.top-icons > img {
   cursor: pointer;
 }
 
@@ -51,6 +51,11 @@ h1{
 }
 h3{
   font-family: SplatterKings;
-  font-size: 3.5em;
+  font-size: 4em;
   margin: 20px;
+  text-align: center;
+}
+
+p{
+  text-align: justify;
 }
