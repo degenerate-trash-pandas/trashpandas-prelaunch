@@ -1,7 +1,9 @@
 .container {
     background-image: url("/backgrounds/BG_Red.png");
 }
-
+.textCenter {
+    text-align: center;
+}
 .mainContainer{
     width: 100%;
     justify-content: space-around;
@@ -26,4 +28,8 @@
 
 .textContainer{
     flex: 1;
+}
+.textPContainer {
+    text-align: justify;
+    width: 80%;
 }
