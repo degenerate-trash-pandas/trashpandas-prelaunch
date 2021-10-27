@@ -1,3 +1,5 @@
+import React from "react";
+
 import type {NextPage} from 'next'
 import {FullPage, Slide} from 'react-full-page';
 import InitialScreen from "../components/InitialScreen/InitialScreen";
@@ -6,7 +8,7 @@ import MenuScreen from "../components/MenuScreen/MenuScreen";
 import TheGameScreen from "../components/TheGameScreen/TheGameScreen";
 import FreensScreen from "../components/FreenScreen/FreensScreen";
 import FairLaunchScreen from "../components/FairLaunchScreen/FairLaunchScreen";
-import {createRef, useRef} from "react";
+import {createRef} from "react";
 
 const Home: NextPage = () => {
     const fullPageRef = createRef<any>();

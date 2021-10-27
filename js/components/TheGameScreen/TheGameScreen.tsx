@@ -1,4 +1,5 @@
 import styles from "./TheGameScreen.module.css";
+import React from "react";
 
 const TheGameScreen = (props: {goNext : () => void, goToMenu: () => void}) => {
     return (

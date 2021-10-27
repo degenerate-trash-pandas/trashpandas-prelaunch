@@ -1,4 +1,5 @@
 import styles from "./FreensScreen.module.css";
+import React from "react";
 
 const FreensScreen = (props: {goNext : () => void, goToMenu: () => void}) => {
     return (

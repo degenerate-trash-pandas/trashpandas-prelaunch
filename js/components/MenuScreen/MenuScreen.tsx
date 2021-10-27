@@ -1,4 +1,5 @@
 import styles from "./MenuScreen.module.css";
+import React from "react";
 
 const MenuScreen = (props : {fullPageRef : any}) => {
     console.log(props.fullPageRef)

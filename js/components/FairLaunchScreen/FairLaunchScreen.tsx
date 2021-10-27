@@ -1,4 +1,5 @@
 import styles from "./FairLaunchScreen.module.css";
+import React from "react";
 
 const TheGameScreen = (props: {goToMenu: () => void}) => {
     return (

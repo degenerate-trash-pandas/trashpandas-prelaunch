@@ -1,6 +1,7 @@
 import styles from "./DescriptionScreen.module.css";
+import React from "react";
 
-const DescriptionScreen = (props: {goNext : () => void, goToMenu: () => void}) => {
+const DescriptionScreen = (props: { goNext: () => void, goToMenu: () => void }) => {
     return (
         <div className={`screen-container ${styles.container}`}>
             <div className="top-icons">
@@ -9,7 +10,7 @@ const DescriptionScreen = (props: {goNext : () => void, goToMenu: () => void}) =
             </div>
             <div className={styles.mainContainer}>
                 <div className={styles.coverImageContainer}>
-                    <img className={styles.coverImage} src="/characters/TrashKing.png" />
+                    <img className={styles.coverImage} src="/characters/TrashKing.png"/>
                 </div>
                 <div className={styles.textContainer}>
                     <h1>
