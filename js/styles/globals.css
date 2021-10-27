@@ -40,13 +40,24 @@ a {
     padding: 40px;
 }
 
-.top-icons > img {
+.top-icons-menu > img {
+    position: absolute;
+    top: 40px;
+}
+.top-icons-menu > img:first-child {
+    left: 40px;
+}
+.top-icons-menu > img:last-child {
+    right: 40px;
+}
+
+.top-icons > img, .top-icons-menu > img {
     height: 40px;
     width: auto;
     z-index: 1;
 }
 
-.top-icons > img {
+.top-icons > img, .top-icons-menu > img {
     cursor: pointer;
 }
 

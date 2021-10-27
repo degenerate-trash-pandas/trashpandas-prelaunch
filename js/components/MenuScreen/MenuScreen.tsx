@@ -9,7 +9,10 @@ const MenuScreen = (props: { fullPageRef: any }) => {
     }
     return (
         <div className={`screen-container ${styles.container}`}>
-
+            <div className="top-icons-menu">
+                <img src="/assets/Logo.png"/>
+                <img src="/assets/Bin_Open.png"/>
+            </div>
             <div className={`${styles.separator} ${styles.firstSeparator}`}>
             </div>
             <div className={`${styles.separator} ${styles.secondSeparator}`}>

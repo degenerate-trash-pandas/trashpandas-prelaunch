@@ -6,7 +6,7 @@ const TheGameScreen = (props: {goToMenu: () => void}) => {
         <div className={`screen-container ${styles.container}`}>
             <div className="top-icons">
                 <img src="/assets/Logo.png"/>
-                <img onClick={props.goToMenu}  src="/assets/Bin_Open.png"/>
+                <img onClick={props.goToMenu}  src="/assets/Bin_Closed.png"/>
             </div>
             <div className={styles.mainContainer}>
                 <div className={styles.textContainer}>
