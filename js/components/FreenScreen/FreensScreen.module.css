@@ -42,3 +42,18 @@
 .imageContainer > img {
     width: 100%;
 }
+@media (max-width: 768px) {
+    .mainContainer {
+        flex-direction: column-reverse;
+    }
+    .imageContainer {
+        width: 50%;
+        padding: 10px;
+    }
+    .textContainer {
+        width: 100%;
+    }
+    .mainContainer {
+        padding-top: 0;
+    }
+}

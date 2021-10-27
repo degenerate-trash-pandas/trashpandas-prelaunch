@@ -19,12 +19,14 @@ const Home: NextPage = () => {
         fullPageRef.current.scrollToSlide(2)
     }
     return (
-        <FullPage ref={fullPageRef}>
+        <FullPage className={"full-page-container"} ref={fullPageRef}>
             <Slide>
                 <InitialScreen goToMenu={goToMenu} goNext={goToNextSlide}/>
+                <div className="white-line down"></div>
             </Slide>
-            <Slide>
+            <Slide style={{position: "relative"}}>
                 <DescriptionScreen goToMenu={goToMenu} goNext={goToNextSlide}/>
+                <div className="white-line up"></div>
             </Slide>
             <Slide>
                 <MenuScreen fullPageRef={fullPageRef}/>

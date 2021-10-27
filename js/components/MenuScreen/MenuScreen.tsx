@@ -1,9 +1,8 @@
 import styles from "./MenuScreen.module.css";
 import React from "react";
 
-const MenuScreen = (props : {fullPageRef : any}) => {
-    console.log(props.fullPageRef)
-    const goToSlide = (slide : number) => {
+const MenuScreen = (props: { fullPageRef: any }) => {
+    const goToSlide = (slide: number) => {
         props.fullPageRef.current.scrollToSlide(slide)
     }
     return (
@@ -32,6 +31,7 @@ const MenuScreen = (props : {fullPageRef : any}) => {
                     </h3>
                 </div>
             </div>
+            <img className={styles.character} src="/characters/TrashKing.png"/>
         </div>
     )
 }

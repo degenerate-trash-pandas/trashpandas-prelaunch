@@ -2,6 +2,7 @@
     background-color: #7b0007;
     justify-content: inherit;
     flex-direction: row;
+    position: relative;
 }
 
 .coverImage {
@@ -29,6 +30,10 @@
     background-color: #420004;
 }
 
+.character {
+    display: none;
+}
+
 .textContainer {
 
     display: flex;
@@ -38,4 +43,28 @@
 
 .textContainer > h3 {
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .firstSeparator{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .character {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: -45%;
+    }
+
+    .secondSeparator {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
 }

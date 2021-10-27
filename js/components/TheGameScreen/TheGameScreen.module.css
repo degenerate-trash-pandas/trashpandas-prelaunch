@@ -35,3 +35,17 @@
     margin-left: 10%;
     width: 30%;
 }
+
+@media (max-width: 768px) {
+    .coverImage {
+        height: 12em;
+    }
+    .textContainer {
+        margin: 0;
+    }
+
+    .mainContainer {
+        flex-direction: column;
+        padding: 0;
+    }
+}

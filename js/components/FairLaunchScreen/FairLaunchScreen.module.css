@@ -39,3 +39,20 @@
     padding-left: 30px;
     padding-right: 30px;
 }
+
+
+@media (max-width: 768px) {
+    .coverImage {
+        height: 12em;
+    }
+    .mainContainer {
+        flex-direction: column-reverse;
+    }
+    .textContainer {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+    .textContainer > p {
+        padding: 0;
+    }
+}

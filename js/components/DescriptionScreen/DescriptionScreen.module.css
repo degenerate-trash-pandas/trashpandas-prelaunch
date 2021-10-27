@@ -1,10 +1,12 @@
 .container {
     background-image: url("/backgrounds/BG_Red.png");
 }
+
 .textCenter {
     text-align: center;
 }
-.mainContainer{
+
+.mainContainer {
     width: 100%;
     justify-content: space-around;
     flex-direction: row;
@@ -12,24 +14,35 @@
     flex-grow: 1;
     align-items: center;
 }
-.coverImageContainer{
+
+.coverImageContainer {
     flex: 1 1;
     position: relative;
     width: 100%;
     height: 100%;
-
 }
-.coverImage{
+
+.coverImage {
     width: 100%;
     height: auto;
     bottom: 0;
     position: absolute;
 }
 
-.textContainer{
+.textContainer {
     flex: 1;
 }
+
 .textPContainer {
     text-align: justify;
     width: 80%;
+}
+
+@media (max-width: 768px) {
+    .textPContainer {
+        width: 100%;
+    }
+    .mainContainer {
+        flex-direction: column-reverse;
+    }
 }

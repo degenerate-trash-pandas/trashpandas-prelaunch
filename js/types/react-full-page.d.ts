@@ -22,6 +22,7 @@ declare module "react-full-page" {
     type SlideProps = {
         ref?: any;
         className?: any;
+        style?: any;
     }
     export const Slide: React.FC<SlideProps>;
 }

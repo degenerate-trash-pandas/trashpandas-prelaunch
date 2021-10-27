@@ -10,7 +10,7 @@ const TheGameScreen = (props: {goNext : () => void, goToMenu: () => void}) => {
             </div>
             <div className={styles.mainContainer}>
                 <img className={styles.coverImage} src={"/characters/Red_Panda.png"}/>
-                <div className={styles.textContainer}>
+                <div className={`${styles.textContainer} mobile-text-container`}>
                     <h3>The game</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar risus sed elementum

@@ -12,7 +12,7 @@ const DescriptionScreen = (props: { goNext: () => void, goToMenu: () => void }) 
                 <div className={styles.coverImageContainer}>
                     <img className={styles.coverImage} src="/characters/TrashKing.png"/>
                 </div>
-                <div className={styles.textContainer}>
+                <div className={`${styles.textContainer} mobile-text-container`}>
                     <div className={styles.textPContainer}>
                         <h1 className={styles.textCenter}>
                             WAGMI

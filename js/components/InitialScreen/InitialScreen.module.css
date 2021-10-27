@@ -46,3 +46,20 @@
     justify-content: center;
     flex-direction: column;
 }
+
+@media (max-width: 768px) {
+    .mainContainer{
+        flex-direction: column;
+        text-align: center !important;
+    }
+    .textContainer{
+        text-align: center;
+    }
+    .textContainer > p{
+        text-align: center !important;
+    }
+    .trashScene {
+        width: 100%;
+        margin-top: -100px;
+    }
+}
