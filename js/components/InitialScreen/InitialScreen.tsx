@@ -19,8 +19,8 @@ const InitialScreen = (props: {goNext : () => void, goToMenu: () => void}) => {
     return (
         <div className={`screen-container ${styles.container}`}>
             <div className="top-icons">
-                <img onClick={props.goToMenu} src="/assets/Logo.png"/>
-                <img onClick={props.goNext} src="/assets/Bin_Closed.png"/>
+                <img onClick={props.goNext} src="/assets/Logo.png"/>
+                <img onClick={props.goToMenu} src="/assets/Bin_Closed.png"/>
             </div>
             <div className={styles.mainContainer}>
                 <div id={"trash-scene"} className={styles.trashScene} ref={sceneRef}>

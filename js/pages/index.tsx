@@ -12,34 +12,38 @@ import {createRef} from "react";
 
 const Home: NextPage = () => {
     const fullPageRef = createRef<any>();
-    const goToNextSlide = () => {
-        fullPageRef.current.scrollNext()
-    }
+    // const goToNextSlide = () => {
+    //     const menu = document.getElementById("magic-menu")
+    //     menu?.classList.remove("active")
+    //     fullPageRef.current.scrollNext()
+    // }
+    const noop = () => {}
     const goToMenu = () => {
-        fullPageRef.current.scrollToSlide(2)
+        const menu = document.getElementById("magic-menu")
+        menu?.classList.add("active")
     }
     return (
         <FullPage className={"full-page-container"} ref={fullPageRef}>
             <Slide>
-                <InitialScreen goToMenu={goToMenu} goNext={goToNextSlide}/>
+                <InitialScreen goToMenu={goToMenu} goNext={noop}/>
                 <div className="white-line down"></div>
             </Slide>
             <Slide style={{position: "relative"}}>
-                <DescriptionScreen goToMenu={goToMenu} goNext={goToNextSlide}/>
+                <DescriptionScreen goToMenu={goToMenu} goNext={noop}/>
                 <div className="white-line up"></div>
             </Slide>
             <Slide>
-                <MenuScreen fullPageRef={fullPageRef}/>
+                <FreensScreen goToMenu={goToMenu} goNext={noop}/>
             </Slide>
             <Slide>
-                <FreensScreen goToMenu={goToMenu} goNext={goToNextSlide}/>
-            </Slide>
-            <Slide>
-                <TheGameScreen goToMenu={goToMenu} goNext={goToNextSlide}/>
+                <TheGameScreen goToMenu={goToMenu} goNext={noop}/>
             </Slide>
             <Slide>
                 <FairLaunchScreen goToMenu={goToMenu}/>
             </Slide>
+            <div id={"magic-menu"}>
+                <MenuScreen fullPageRef={fullPageRef}/>
+            </div>
         </FullPage>
     )
 }

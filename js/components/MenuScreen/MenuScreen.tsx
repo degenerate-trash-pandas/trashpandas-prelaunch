@@ -4,6 +4,8 @@ import React from "react";
 const MenuScreen = (props: { fullPageRef: any }) => {
     const goToSlide = (slide: number) => {
         props.fullPageRef.current.scrollToSlide(slide)
+        const menu = document.getElementById("magic-menu")
+        menu?.classList.remove("active")
     }
     return (
         <div className={`screen-container ${styles.container}`}>
@@ -20,13 +22,13 @@ const MenuScreen = (props: { fullPageRef: any }) => {
                     <h3 onClick={() => goToSlide(1)}>
                         WAGMI
                     </h3>
-                    <h3 onClick={() => goToSlide(3)}>
+                    <h3 onClick={() => goToSlide(2)}>
                         FRENS
                     </h3>
-                    <h3 onClick={() => goToSlide(4)}>
+                    <h3 onClick={() => goToSlide(3)}>
                         THE GAME
                     </h3>
-                    <h3 onClick={() => goToSlide(5)}>
+                    <h3 onClick={() => goToSlide(4)}>
                         LAUNCH
                     </h3>
                 </div>
