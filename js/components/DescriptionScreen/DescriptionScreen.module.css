@@ -45,4 +45,13 @@
     .mainContainer {
         flex-direction: column-reverse;
     }
+    .coverImageContainer {
+        display: flex;
+        justify-content: center;
+    }
+    .coverImage {
+        max-height: 20em;
+        width: auto;
+    }
+
 }
