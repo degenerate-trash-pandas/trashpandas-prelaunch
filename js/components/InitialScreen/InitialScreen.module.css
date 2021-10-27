@@ -3,8 +3,34 @@
     justify-content: inherit;
 }
 
+.trashScene {
+    width: 60%;
+    height: auto;
+    position: relative;
+}
+
+.trashScene > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.trashScene > div > img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .coverImage {
-    max-height: 70%;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .mainContainer{

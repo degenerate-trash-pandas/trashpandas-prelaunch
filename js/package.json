@@ -9,10 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react-full-page": "^0.1.12",
     "next": "12.0.0",
+    "parallax-js": "^3.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-full-page": "^0.1.12"
   },
   "devDependencies": {
     "@types/node": "16.11.6",
