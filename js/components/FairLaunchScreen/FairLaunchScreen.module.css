@@ -1,20 +1,21 @@
 .container {
-    background-color: #7b0007;
+    background-color: black;
     justify-content: inherit;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .coverImage {
-    max-height: 70%;
+    max-height: 40em;
 }
 
 .mainContainer {
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     display: flex;
-    align-items: normal;
+    align-items: center;
     flex: 6;
+    padding: 10%;
 }
 
 .separator {
@@ -30,12 +31,11 @@
 }
 
 .textContainer {
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    margin-right: 10%;
+    width: 40%;
 }
 
-.textContainer > h3 {
-    cursor: pointer;
+.textContainer > p {
+    padding-left: 30px;
+    padding-right: 30px;
 }

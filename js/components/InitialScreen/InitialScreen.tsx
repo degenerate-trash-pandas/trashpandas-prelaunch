@@ -3,7 +3,7 @@ import Parallax from 'parallax-js'
 
 import styles from "./InitialScreen.module.css";
 
-const InitialScreen = () => {
+const InitialScreen = (props: {goNext : () => void, goToMenu: () => void}) => {
     const sceneRef = useRef(null)
 
     useEffect(() => {
@@ -19,8 +19,8 @@ const InitialScreen = () => {
     return (
         <div className={`screen-container ${styles.container}`}>
             <div className="top-icons">
-                <img src="/assets/Logo.png"/>
-                <img src="/assets/Bin_Open.png"/>
+                <img onClick={props.goToMenu} src="/assets/Logo.png"/>
+                <img onClick={props.goNext} src="/assets/Bin_Closed.png"/>
             </div>
             <div className={styles.mainContainer}>
                 <div id={"trash-scene"} className={styles.trashScene} ref={sceneRef}>

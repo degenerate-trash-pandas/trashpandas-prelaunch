@@ -1,11 +1,11 @@
 import styles from "./TheGameScreen.module.css";
 
-const TheGameScreen = () => {
+const TheGameScreen = (props: {goNext : () => void, goToMenu: () => void}) => {
     return (
         <div className={`screen-container ${styles.container}`}>
             <div className="top-icons">
-                <img src="/assets/Logo.png"/>
-                <img src="/assets/Bin_Open.png"/>
+                <img onClick={props.goToMenu} src="/assets/Logo.png"/>
+                <img onClick={props.goNext} src="/assets/Bin_Open.png"/>
             </div>
             <div className={styles.mainContainer}>
                 <img className={styles.coverImage} src={"/characters/Red_Panda.png"}/>
