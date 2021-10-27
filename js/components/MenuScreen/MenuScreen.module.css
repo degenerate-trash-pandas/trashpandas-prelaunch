@@ -1,0 +1,22 @@
+.container {
+    background-color: black;
+    justify-content: inherit;
+}
+
+.coverImage {
+    max-height: 70%;
+}
+
+.mainContainer{
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+    flex-grow: 1;
+    align-items: normal;
+}
+.textContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

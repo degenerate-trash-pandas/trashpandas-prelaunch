@@ -1,0 +1,51 @@
+@font-face {
+  font-family: SplatterKings;
+  src: url("/fonts/Splatter_Kings.otf") format("opentype");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New";
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.screen-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.top-icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.top-icons > img {
+  height: 40px;
+  width: auto;
+  z-index: 1;
+}
+
+.top-icons > img:last-child {
+  cursor: pointer;
+}
+
+h1{
+  font-family: SplatterKings;
+  font-size: 5em;
+}
