@@ -45,15 +45,13 @@
 @media (max-width: 768px) {
     .mainContainer {
         flex-direction: column-reverse;
+        padding-top: 0;
     }
     .imageContainer {
-        width: 50%;
-        padding: 10px;
+        width: 35%;
+        padding: 0px;
     }
     .textContainer {
         width: 100%;
-    }
-    .mainContainer {
-        padding-top: 0;
     }
 }

@@ -41,6 +41,7 @@
         height: 12em;
     }
     .textContainer {
+        padding-top: 0;
         margin: 0;
     }
 

@@ -47,6 +47,7 @@
     }
     .mainContainer {
         flex-direction: column-reverse;
+        padding-top: 0;
     }
     .textContainer {
         width: 100%;

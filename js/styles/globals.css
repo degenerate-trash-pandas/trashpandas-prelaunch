@@ -97,7 +97,7 @@ p {
 
     h1 {
         margin: 0;
-        font-size: 3em;
+        font-size: 2em;
         text-align: center;
     }
 
@@ -108,7 +108,7 @@ p {
     }
 
     p {
-        font-size: 0.9em;
+        font-size: 12px;
     }
 
     h3 {
