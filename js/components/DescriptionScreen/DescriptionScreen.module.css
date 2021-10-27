@@ -10,3 +10,13 @@
     flex-grow: 1;
     align-items: center;
 }
+.coverImageContainer{
+    flex: 1;
+}
+.coverImage{
+    height: 100%;
+}
+
+.textContainer{
+    flex: 1;
+}

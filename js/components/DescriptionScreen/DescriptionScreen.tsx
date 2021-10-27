@@ -8,7 +8,9 @@ const DescriptionScreen = () => {
                 <img src="/assets/Bin_Open.png"/>
             </div>
             <div className={styles.mainContainer}>
-                <img className={styles.coverImage} src="/characters/Panda_Red.png" />
+                <div className={styles.coverImageContainer}>
+                    <img className={styles.coverImage} src="/characters/TrashKing.png" />
+                </div>
                 <div className={styles.textContainer}>
                     <h1>
                         WAGMI

@@ -1,35 +1,34 @@
-import styles from "./DescriptionScreen.module.css";
+import styles from "./MenuScreen.module.css";
 
-const DescriptionScreen = () => {
+const MenuScreen = () => {
     return (
         <div className={`screen-container ${styles.container}`}>
-            <div className="top-icons">
-                <img src="/assets/Logo.png"/>
-                <img src="/assets/Bin_Open.png"/>
+
+            <div className={`${styles.separator} ${styles.firstSeparator}`}>
+            </div>
+            <div className={`${styles.separator} ${styles.secondSeparator}`}>
             </div>
             <div className={styles.mainContainer}>
-                <img className={styles.coverImage} src="/characters/Panda_Red.png" />
                 <div className={styles.textContainer}>
-                    <h1>
+                    <h3>
                         HOME
-                    </h1>
-                    <h1>
+                    </h3>
+                    <h3>
                         WAGMI
-                    </h1>
-                    <h1>
+                    </h3>
+                    <h3>
                         FRENS
-                    </h1>
-                    <h1>
-                        THEGAME
-                    </h1>
-                    <h1>
-                        WAGMI
-                    </h1>
-
+                    </h3>
+                    <h3>
+                        THE GAME
+                    </h3>
+                    <h3>
+                        LAUNCH
+                    </h3>
                 </div>
             </div>
         </div>
     )
 }
 
-export default DescriptionScreen
+export default MenuScreen
