@@ -80,7 +80,7 @@ p {
 .white-line {
     position: absolute;
     height: 20vh;
-    right: 50vh;
+    right: 27%;
     width: 2px;
     background-color: white;
 }

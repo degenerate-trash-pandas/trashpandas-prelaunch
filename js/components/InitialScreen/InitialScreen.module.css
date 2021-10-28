@@ -36,7 +36,7 @@
 
 .mainContainer{
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     display: flex;
     flex-grow: 1;
@@ -57,18 +57,19 @@
     font-size: 2em;
     font-family: SplatterKings, sans-serif;
 }
+.textContainer > p {
+    text-align: center !important;
+}
 
 @media (max-width: 768px) {
     .mainContainer{
         flex-direction: column;
         text-align: center !important;
+        justify-content: space-around;
     }
     .textContainer{
         text-align: center;
         margin-top: 20vh;
-    }
-    .textContainer > p{
-        text-align: center !important;
     }
     .trashScene {
         width: 100%;

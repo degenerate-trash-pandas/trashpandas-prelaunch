@@ -3,6 +3,7 @@
     justify-content: inherit;
     flex-direction: row;
     position: relative;
+    padding-top: 0 !important;
 }
 
 .coverImage {
