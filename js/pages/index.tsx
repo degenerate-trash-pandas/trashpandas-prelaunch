@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import type {NextPage} from 'next'
 import {FullPage, Slide} from 'react-full-page';
@@ -12,37 +12,46 @@ import {createRef} from "react";
 
 const Home: NextPage = () => {
     const fullPageRef = createRef<any>();
-    // const goToNextSlide = () => {
-    //     const menu = document.getElementById("magic-menu")
-    //     menu?.classList.remove("active")
-    //     fullPageRef.current.scrollNext()
-    // }
-    const noop = () => {}
-    const goToMenu = () => {
+    const [binOpen, setBinOpen] = useState(false);
+    const openMenu = () => {
         const menu = document.getElementById("magic-menu")
         menu?.classList.add("active")
+        setBinOpen(true)
+    }
+    const closeMenu = () => {
+        const menu = document.getElementById("magic-menu")
+        menu?.classList.remove("active")
+        setBinOpen(false)
     }
     return (
         <FullPage className={"full-page-container"} ref={fullPageRef}>
+            <div className="top-icons-menu">
+                <img src="/assets/Logo.png"/>
+                {binOpen ? (
+                    <img onClick={closeMenu} src="/assets/Bin_Open.png"/>
+                ) : (
+                    <img onClick={openMenu} src="/assets/Bin_Closed.png"/>
+                )}
+            </div>
             <Slide>
-                <InitialScreen goToMenu={goToMenu} goNext={noop}/>
+                <InitialScreen />
                 <div className="white-line down"></div>
             </Slide>
             <Slide style={{position: "relative"}}>
-                <DescriptionScreen goToMenu={goToMenu} goNext={noop}/>
+                <DescriptionScreen />
                 <div className="white-line up"></div>
             </Slide>
             <Slide>
-                <FreensScreen goToMenu={goToMenu} goNext={noop}/>
+                <FreensScreen />
             </Slide>
             <Slide>
-                <TheGameScreen goToMenu={goToMenu} goNext={noop}/>
+                <TheGameScreen />
             </Slide>
             <Slide>
-                <FairLaunchScreen goToMenu={goToMenu}/>
+                <FairLaunchScreen />
             </Slide>
             <div id={"magic-menu"}>
-                <MenuScreen fullPageRef={fullPageRef}/>
+                <MenuScreen fullPageRef={fullPageRef} onMenuItem={() => setBinOpen(false)}/>
             </div>
         </FullPage>
     )

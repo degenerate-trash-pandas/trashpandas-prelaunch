@@ -1,13 +1,9 @@
 import styles from "./FairLaunchScreen.module.css";
 import React from "react";
 
-const TheGameScreen = (props: {goToMenu: () => void}) => {
+const TheGameScreen = () => {
     return (
         <div className={`screen-container ${styles.container}`}>
-            <div className="top-icons">
-                <img src="/assets/Logo.png"/>
-                <img onClick={props.goToMenu}  src="/assets/Bin_Closed.png"/>
-            </div>
             <div className={styles.mainContainer}>
                 <div className={styles.textContainer}>
                     <h1>FAIR LAUNCH</h1>

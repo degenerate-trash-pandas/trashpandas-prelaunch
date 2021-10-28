@@ -1,13 +1,9 @@
 import styles from "./DescriptionScreen.module.css";
 import React from "react";
 
-const DescriptionScreen = (props: { goNext: () => void, goToMenu: () => void }) => {
+const DescriptionScreen = () => {
     return (
         <div className={`screen-container ${styles.container}`}>
-            <div className="top-icons">
-                <img onClick={props.goNext} src="/assets/Logo.png"/>
-                <img onClick={props.goToMenu} src="/assets/Bin_Closed.png"/>
-            </div>
             <div className={styles.mainContainer}>
                 <div className={styles.coverImageContainer}>
                     <img className={styles.coverImage} src="/characters/TrashKing.png"/>

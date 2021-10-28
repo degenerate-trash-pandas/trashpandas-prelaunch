@@ -1,13 +1,9 @@
 import styles from "./TheGameScreen.module.css";
 import React from "react";
 
-const TheGameScreen = (props: {goNext : () => void, goToMenu: () => void}) => {
+const TheGameScreen = () => {
     return (
         <div className={`screen-container ${styles.container}`}>
-            <div className="top-icons">
-                <img onClick={props.goNext} src="/assets/Logo.png"/>
-                <img onClick={props.goToMenu} src="/assets/Bin_Closed.png"/>
-            </div>
             <div className={styles.mainContainer}>
                 <img className={styles.coverImage} src={"/characters/Red_Panda.png"}/>
                 <div className={`${styles.textContainer} mobile-text-container`}>
