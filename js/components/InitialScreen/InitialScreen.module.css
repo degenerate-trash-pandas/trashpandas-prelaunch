@@ -21,8 +21,9 @@
     width: 100%;
     height: auto;
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
+    transform: translate(0, -50%);
 }
 
 .coverImage {
@@ -45,6 +46,16 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
+}
+
+.trashTitle {
+    font-size: 7em;
+    font-family: SplatterKings, sans-serif;
+}
+.trashSubTitle {
+    font-size: 2em;
+    font-family: SplatterKings, sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -62,5 +73,21 @@
     .trashScene {
         width: 100%;
         margin-top: -20vh;
+    }
+    .trashScene > div > img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+    .trashTitle {
+        font-size: 3em;
+        font-family: SplatterKings, sans-serif;
+    }
+    .trashSubTitle {
+        font-size: 1em;
+        font-family: SplatterKings, sans-serif;
     }
 }

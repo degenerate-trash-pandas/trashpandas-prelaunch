@@ -35,11 +35,11 @@ const InitialScreen = () => {
                     <div data-depth={"0.45"}><img src="/assets/trash_scene/noodles.png" /></div>
                 </div>
                 <div className={styles.textContainer}>
-                    <h1>
+                    <div className={styles.trashTitle}>
                         Trash <br /> Pandas
-                    </h1>
+                    </div>
                     <p>The pre-launch site</p>
-                    <h2>WAGMI</h2>
+                    <h2  className={styles.trashSubTitle}>WAGMI</h2>
                 </div>
             </div>
         </div>
