@@ -32,6 +32,7 @@
 
 .textContainer {
     width: 30%;
+    margin-right: 80px;
 }
 
 .imageContainer {
@@ -66,6 +67,7 @@
     }
     .textContainer {
         width: 100%;
+        margin-right: 0;
     }
     .titleImageContainer > img{
         height: 3em;
