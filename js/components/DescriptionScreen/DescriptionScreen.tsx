@@ -6,26 +6,22 @@ const DescriptionScreen = () => {
         <div className={`screen-container ${styles.container}`}>
             <div className={styles.mainContainer}>
                 <div className={styles.coverImageContainer}>
-                    <img className={styles.coverImage} src="/characters/TrashKing.png"/>
+                    <img className={styles.coverImage} src="/characters/TrashKing.png" />
                 </div>
                 <div className={`${styles.textContainer} mobile-text-container`}>
                     <div className={styles.textPContainer}>
+
+                        <p>The Degeniverse is expanding. We are the <b>Degenerate Trash Pandas</b>. A collection of 20K cunning
+                            critters that live for one thing and one thing only: To scavenge the blockchain.</p>
+                        <p>
+                            Inhabiting their own underworld society, the Trash Pandas are governed by no individuals and
+                            live by no rules. What they have though is their trash, and their trash is their treasure.
+                            They’ll do whatever they can to get their little paws on it, even if it means befriending an
+                            Academy of oafish Degenerate Apes.
+                        </p>
                         <h1 className={styles.textCenter}>
                             WAGMI
                         </h1>
-                        <p>Trash Pandas,above all,believe WAGMI. And because
-                            of that, everyone who holds a Degenerate Ape at
-                            Midnight PST on October 31st, 2021 will get 1:1
-                            (the equivalent Candy Machine tokens to redeem)</p>
-                        <br/>
-                        <p>
-                            Because WAGMI,Trash Pandas will be a FairLaunch.
-                            What’s that? A fair launch means there’sa 24 hour
-                            window to bid, at which point winners will be
-                            chosen randomly. If you win the Fair Launch raffle,
-                            you’ll be given a Candy Machine token! These are
-                            totally fungible tokens,but you can redeem it for
-                        </p>
                     </div>
                 </div>
             </div>

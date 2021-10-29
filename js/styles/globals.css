@@ -74,6 +74,7 @@ h3 {
 
 p {
     text-align: justify;
+    text-align-last: center;
     line-height: 1.3rem;
 }
 
@@ -88,7 +89,7 @@ p {
 
 .white-line.up {
     top: 0;
-    height: 30vh;
+    height: 20vh;
 }
 
 .white-line.down {
@@ -145,7 +146,7 @@ p {
 
     p {
         font-size: 12px;
-        line-height: inherit;
+        line-height: 1;
     }
 
     h3 {

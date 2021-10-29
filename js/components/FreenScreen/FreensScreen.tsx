@@ -6,20 +6,20 @@ const FreensScreen = () => {
         <div className={`screen-container ${styles.container}`}>
             <div className={styles.mainContainer}>
                 <div className={styles.textContainer}>
-                    <h3>Freens</h3>
+                    <div className={styles.titleImageContainer}>
+                        <img src={"/assets/PetsScribble.png"}/>
+                    </div>
+
+                    <h3 className={styles.title}>Freens</h3>
                     <p>
-                        Trash Pandas,above all,believe WAGMI. And because
-                        of that, everyone who holds a Degenerate Ape at
-                        Midnight PST on October 31st, 2021 will get 1:1
-                        (the equivalent Candy Machine tokens to redeem)
+                        Because Trash Pandas and Apes have a symbiotic relationship, every Ape holder will receive 1
+                        Candy Machine token per Degen Ape that they hold, unlisted. That's right, 1:1. You can then
+                        redeem these tokens to adopt your trashy little pals. More details on this below.
                     </p>
                     <p>
-                        Because WAGMI,Trash Pandas will be a FairLaunch.
-                        What’s that? A fair launch means there’sa 24 hour
-                        window to bid, at which point winners will be
-                        chosen randomly. If you win the Fair Launch raffle,
-                        you’ll be given a Candy Machine token! These are
-                        totally fungible tokens,but you can redeem it for
+                        Holders of Apes or Trash Pandas will receive the utility benefits supplied by the other. But not
+                        only that, holders of both simultaneously will receive their own unique rewards. These multi
+                        holder benefits will be added to over time.
                     </p>
                 </div>
                 <div className={styles.imageContainer}>
@@ -31,8 +31,6 @@ const FreensScreen = () => {
                 <div className={styles.imageContainer}>
                     <img src={"/characters/Red_Ape.png"} />
                 </div>
-
-
 
 
             </div>
