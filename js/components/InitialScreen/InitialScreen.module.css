@@ -47,12 +47,20 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    width: 40%;
+    height: auto;
 }
 
 .trashTitle {
-    font-size: 7em;
-    font-family: SplatterKings, sans-serif;
+    width: 100%;
+    height: auto;
 }
+
+.trashTitle > img {
+    max-width: 80%;
+    height: auto;
+}
+
 .trashSubTitle {
     font-size: 2em;
     font-family: SplatterKings, sans-serif;
@@ -70,6 +78,7 @@
     .textContainer{
         text-align: center;
         margin-top: 20vh;
+        width: 100%;
     }
     .trashScene {
         width: 100%;
@@ -84,8 +93,10 @@
         transform: none;
     }
     .trashTitle {
-        font-size: 3em;
-        font-family: SplatterKings, sans-serif;
+        width: 100%;
+    }
+    .trashTitle > img {
+        width: 60%;
     }
     .trashSubTitle {
         font-size: 1em;

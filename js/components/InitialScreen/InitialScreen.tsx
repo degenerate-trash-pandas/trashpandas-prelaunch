@@ -36,7 +36,7 @@ const InitialScreen = () => {
                 </div>
                 <div className={styles.textContainer}>
                     <div className={styles.trashTitle}>
-                        Trash <br /> Pandas
+                        <img src="/assets/WordLogo.png"/>
                     </div>
                     <p>The pre-launch site</p>
                     <h2  className={styles.trashSubTitle}>WAGMI</h2>
