@@ -17,6 +17,7 @@ const DescriptionScreen = () => {
                             of that, everyone who holds a Degenerate Ape at
                             Midnight PST on October 31st, 2021 will get 1:1
                             (the equivalent Candy Machine tokens to redeem)</p>
+                        <br/>
                         <p>
                             Because WAGMI,Trash Pandas will be a FairLaunch.
                             What’s that? A fair launch means there’sa 24 hour

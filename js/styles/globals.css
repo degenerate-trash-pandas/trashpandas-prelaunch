@@ -145,6 +145,7 @@ p {
 
     p {
         font-size: 12px;
+        line-height: inherit;
     }
 
     h3 {
