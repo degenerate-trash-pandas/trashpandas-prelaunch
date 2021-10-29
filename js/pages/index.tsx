@@ -26,7 +26,7 @@ const Home: NextPage = () => {
     return (
         <FullPage className={"full-page-container"} ref={fullPageRef}>
             <div className="top-icons-menu">
-                <img src="/assets/Logo.png"/>
+                <img src="/assets/WordLogo.png"/>
                 {binOpen ? (
                     <img onClick={closeMenu} src="/assets/Bin_Open.png"/>
                 ) : (
