@@ -41,6 +41,16 @@
     margin-right: 27%;
 }
 
+@media (min-width: 769px)  {
+    .textPContainer{
+        position: absolute;
+        margin: 0;
+        right: calc(27% - 245px);
+        top: 35%;
+    }
+
+}
+
 @media (max-width: 768px) {
     .textPContainer {
         width: 100%;
