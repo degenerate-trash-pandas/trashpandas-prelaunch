@@ -27,8 +27,7 @@
     height: auto;
     bottom: 0;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    right: -10%;
 }
 
 .textContainer {
@@ -38,6 +37,7 @@
 .textPContainer {
     text-align: justify;
     max-width: 60%;
+    margin: auto;
 }
 
 @media (max-width: 768px) {
@@ -54,12 +54,17 @@
     .coverImage {
         max-height: 20em;
         width: auto;
+        right: initial;
+    }
+    .textPContainer {
+        text-align: justify;
+        max-width: 80%;
     }
 
 }
 @media (max-width: 768px) and (max-height: 570px) {
     .coverImage {
-        max-height: 15em;
+        max-height: 12em;
         width: auto;
     }
 }
