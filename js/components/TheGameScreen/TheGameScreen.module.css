@@ -32,6 +32,7 @@
 
 .textContainer {
     flex: 1;
+    padding-top: 50px;
 }
 
 .textPContainer {
@@ -70,5 +71,8 @@
     .coverImage {
         max-height: 7em;
         width: auto;
+    }
+    .textContainer {
+        padding-top: 30px;
     }
 }
