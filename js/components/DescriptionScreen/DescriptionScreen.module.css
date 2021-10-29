@@ -23,10 +23,12 @@
 }
 
 .coverImage {
-    width: 100%;
+    width: 80%;
     height: auto;
     bottom: 0;
     position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .textContainer {
@@ -35,7 +37,8 @@
 
 .textPContainer {
     text-align: justify;
-    width: 80%;
+    max-width: 60%;
+    margin: auto;
 }
 
 @media (max-width: 768px) {

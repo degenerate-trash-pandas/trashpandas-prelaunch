@@ -86,7 +86,8 @@ p {
 }
 
 .white-line.up {
-    top: 0
+    top: 0;
+    height: 30vh;
 }
 
 .white-line.down {
@@ -115,7 +116,7 @@ p {
 @media (max-width: 768px) {
     .white-line {
         right: 50% !important;
-        height: 10vh;
+        height: 10vh !important;
     }
 
     .top-icons-menu > img {
