@@ -9,7 +9,6 @@ const FreensScreen = () => {
                     <div className={styles.titleImageContainer}>
                         <img src={"/assets/PetsScribble.png"}/>
                     </div>
-
                     <h3 className={styles.title}>Freens</h3>
                     <p>
                         Because Trash Pandas and Apes have a symbiotic relationship, every Ape holder will receive 1
