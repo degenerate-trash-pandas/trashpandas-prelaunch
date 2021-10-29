@@ -13,7 +13,7 @@ const FreensScreen = () => {
                     <h3 className={styles.title}>Freens</h3>
                     <p>
                         Because Trash Pandas and Apes have a symbiotic relationship, every Ape holder will receive 1
-                        Candy Machine token per Degen Ape that they hold, unlisted. That's right, 1:1. You can then
+                        Candy Machine token per Degen Ape that they hold, unlisted. That&apos;s right, 1:1. You can then
                         redeem these tokens to adopt your trashy little pals. More details on this below.
                     </p>
                     <p>
