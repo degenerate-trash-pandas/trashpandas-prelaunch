@@ -22,7 +22,7 @@ const TheGameScreen = () => {
                         totally fungible tokens,but you can redeem it for
                     </p>
                 </div>
-                <img className={styles.coverImage} src={"/assets/FairLaunchToken.gif"}/>
+                <img className={styles.coverImage} src={"/assets/FairLaunchToken2.gif"}/>
             </div>
         </div>
     )
