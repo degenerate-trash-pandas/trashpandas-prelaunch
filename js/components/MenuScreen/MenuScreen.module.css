@@ -46,6 +46,17 @@
     cursor: pointer;
 }
 
+.socialIconsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIconsContainer > a > img {
+    height: 2.2em;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
 @media (max-width: 768px) {
     .firstSeparator{
         position: relative;
@@ -68,4 +79,11 @@
     .container {
         flex-direction: column-reverse;
     }
+
+    .socialIconsContainer > a > img {
+        height: 1.1em;
+        margin-top: 1em;
+        margin-right: 20px;
+    }
+
 }
