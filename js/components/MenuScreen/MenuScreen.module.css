@@ -87,3 +87,9 @@
     }
 
 }
+
+@media (max-width: 768px) and (max-height: 570px) {
+    .character {
+        margin-bottom: -55%;
+    }
+}
