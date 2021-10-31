@@ -66,4 +66,10 @@
     .textContainer > p {
         padding: 0;
     }
+    .subTitle {
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 1em;
+        font-family: SplatterKings, sans-serif;
+    }
 }
