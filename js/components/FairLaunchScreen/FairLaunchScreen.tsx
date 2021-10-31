@@ -6,20 +6,26 @@ const TheGameScreen = () => {
         <div className={`screen-container ${styles.container}`}>
             <div className={styles.mainContainer}>
                 <div className={styles.textContainer}>
-                    <h1>FAIR LAUNCH</h1>
+                    <h1 className={styles.title}>FAIR LAUNCH</h1>
+                    <h5 className={styles.subTitle}>(But used properly)</h5>
+                    <p>Wen? <b>14th of November.</b></p>
                     <p>
-                        Trash Pandas,above all,believe WAGMI. And because
-                        of that, everyone who holds a Degenerate Ape at
-                        Midnight PST on October 31st, 2021 will get 1:1
-                        (the equivalent Candy Machine tokens to redeem)
+                        A snapshot of ape holder wallets will be taken 6.9 days
+                        before the fair launch on the <b>7th of November.</b> Write
+                        it down. Don&apos;t forget it. Heck, get it <br />
+                        tattooed on your forehead. If you forget to delist and aren&apos;t included, YNGMI.
                     </p>
                     <p>
-                        Because WAGMI,Trash Pandas will be a FairLaunch.
-                        What’s that? A fair launch means there’sa 24 hour
-                        window to bid, at which point winners will be
-                        chosen randomly. If you win the Fair Launch raffle,
-                        you’ll be given a Candy Machine token! These are
-                        totally fungible tokens,but you can redeem it for
+                        The fair launch (FLP) price range will be announced
+                        in the lead up to the drop. The Trash Pandas is what
+                        FLP was built for and we believe that it hasn&apos;t been
+                        used correctly in past drops. We will be looking to
+                        get true price discovery with this fair launch.
+                    </p>
+                    <p>
+                        We will be allowing one bid per wallet and a bid fee of 0.2 SOL
+                        will be applied to avoid botting. These funds will be donated to
+                        charity following the launch.
                     </p>
                 </div>
                 <img className={styles.coverImage} src={"/assets/FairLaunchToken2.gif"}/>

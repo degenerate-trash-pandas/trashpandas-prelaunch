@@ -9,7 +9,7 @@ const FreensScreen = () => {
                     <div className={styles.titleImageContainer}>
                         <img src={"/assets/PetsScribble.png"}/>
                     </div>
-                    <h3 className={styles.title}>Freens</h3>
+                    <h3 className={styles.title}>Frens</h3>
                     <p>
                         Because Trash Pandas and Apes have a symbiotic relationship, every Ape holder will receive 1
                         Candy Machine token per Degen Ape that they hold, unlisted. That&apos;s right, 1:1. You can then
@@ -17,7 +17,7 @@ const FreensScreen = () => {
                     </p>
                     <p>
                         Holders of Apes or Trash Pandas will receive the utility benefits supplied by the other. But not
-                        only that, holders of both simultaneously will receive their own unique rewards. These multi
+                        only that, holders of both simultaneously will receive <b>their own unique rewards</b>. These multi
                         holder benefits will be added to over time.
                     </p>
                 </div>

@@ -60,6 +60,10 @@ a {
     cursor: pointer;
 }
 
+.text-center {
+    text-align: center;
+}
+
 h1 {
     font-family: SplatterKings;
     font-size: 5em;
@@ -76,6 +80,10 @@ p {
     text-align: justify;
     text-align-last: center;
     line-height: 1.3rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+p > b {
+    color: white;
 }
 
 
