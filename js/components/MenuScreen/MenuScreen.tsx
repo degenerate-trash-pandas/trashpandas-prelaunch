@@ -32,7 +32,7 @@ const MenuScreen = (props: { fullPageRef: any, onMenuItem: () => void }) => {
                         LAUNCH
                     </h3>
                     <div className={styles.socialIconsContainer}>
-                        <a href={"https://discord.gg/MqXcGSQC"} target={"_blank"} rel={"noreferrer"}> <img src="/assets/Discord.png"/></a>
+                        <a href={"https://discord.gg/qgjK4TmXVm"} target={"_blank"} rel={"noreferrer"}> <img src="/assets/Discord.png"/></a>
                         <a href={"https://twitter.com/DegenTrashPanda"} target={"_blank"} rel={"noreferrer"}><img src="/assets/Twitter.png"/></a>
                     </div>
                 </div>
