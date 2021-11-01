@@ -27,12 +27,10 @@
     height: auto;
     bottom: 0;
     position: absolute;
-    right: -10%;
 }
 
 .textContainer {
     flex: 1;
-    padding-top: 50px;
 }
 
 .textPContainer {
