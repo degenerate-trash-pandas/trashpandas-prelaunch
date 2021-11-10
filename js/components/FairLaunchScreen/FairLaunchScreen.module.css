@@ -25,7 +25,6 @@
     display: flex;
     align-items: center;
     flex: 6;
-    padding: 10%;
 }
 
 .separator {
@@ -50,6 +49,11 @@
     padding-right: 30px;
 }
 
+@media (min-width: 1921px) {
+    .mainContainer {
+        padding: 10%;
+    }
+}
 
 @media (max-width: 768px) {
     .coverImage {
