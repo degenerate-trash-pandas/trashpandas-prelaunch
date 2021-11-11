@@ -1,639 +1,641 @@
+export const RARITY_ORDER = ["Common","Uncommon","Rare", "Super rare", "Mythic"]
+
 export const TRAITS_DATA = [
     {
         url: `/Traits/Background/Common/Black.png`,
         type: "Background",
         rarity: "Common",
-        name: "Black"
+        title: "Black"
 
     },
     {
         url: `/Traits/Background/Common/Blue.png`,
         type: "Background",
         rarity: "Common",
-        name: "Blue"
+        title: "Blue"
     },
 
     {
         url: `/Traits/Background/Common/Green.png`,
         type: "Background",
         rarity: "Common",
-        name: "Green"
+        title: "Green"
     },
     {
         url: `/Traits/Background/Common/Purple.png`,
         type: "Background",
         rarity: "Common",
-        name: "Purple"
+        title: "Purple"
     },
     {
         url: `/Traits/Background/Common/Red.png`,
         type: "Background",
         rarity: "Common",
-        name: "Red"
+        title: "Red"
     },
 
     {
         url: `/Traits/Background/Common/Yellow.png`,
         type: "Background",
         rarity: "Common",
-        name: "Yellow"
+        title: "Yellow"
     },
     {
         url: `/Traits/Clothing/Common/Bandana.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "Bandana"
+        title: "Bandana"
 
     },
     {
         url: `/Traits/Clothing/Common/BumBag.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "BumBag"
+        title: "BumBag"
 
     },
     {
         url: `/Traits/Clothing/Common/DenimVest.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "DenimVest"
+        title: "DenimVest"
 
     },
     {
         url: `/Traits/Clothing/Common/DressShirt.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "DressShirt"
+        title: "DressShirt"
 
     },
     {
         url: `/Traits/Clothing/Common/FishingVest.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "FishingVest"
+        title: "FishingVest"
 
     },
     {
         url: `/Traits/Clothing/Common/HockeyPads.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "HockeyPads"
+        title: "HockeyPads"
 
     },
     {
         url: `/Traits/Clothing/Common/Hoodie.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "Hoodie"
+        title: "Hoodie"
 
     },
     {
         url: `/Traits/Clothing/Common/KnittedVest.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "KnittedVest"
+        title: "KnittedVest"
 
     },
     {
         url: `/Traits/Clothing/Common/OpenShirt.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "OpenShirt"
+        title: "OpenShirt"
 
     },
     {
         url: `/Traits/Clothing/Common/Overalls.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "Overalls"
+        title: "Overalls"
 
     },
     {
         url: `/Traits/Clothing/Common/Singlet.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "Singlet"
+        title: "Singlet"
 
     },
     {
         url: `/Traits/Clothing/Common/T-Shirt.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "T-Shirt"
+        title: "T-Shirt"
 
     },
     {
         url: `/Traits/Clothing/Common/TurtleNeck.png`,
         type: "Clothing",
         rarity: "Common",
-        name: "TurtleNeck"
+        title: "TurtleNeck"
     },
     {
         url: `/Traits/Clothing/Mythic/Admiral.png`,
         type: "Clothing",
         rarity: "Mythic",
-        name: "Admiral"
+        title: "Admiral"
     },
     {
         url: `/Traits/Clothing/Rare/ChavJacket.png`,
         type: "Clothing",
         rarity: "Rare",
-        name: "ChavJacket"
+        title: "ChavJacket"
     },
     {
         url: `/Traits/Clothing/Rare/CrayonFarmer.png`,
         type: "Clothing",
         rarity: "Rare",
-        name: "CrayonFarmer"
+        title: "CrayonFarmer"
     },
     {
         url: `/Traits/Clothing/Rare/DegenServicePolo.png`,
         type: "Clothing",
         rarity: "Rare",
-        name: "DegenServicePolo"
+        title: "DegenServicePolo"
     },
     {
         url: `/Traits/Clothing/Rare/DesignerJacket.png`,
         type: "Clothing",
         rarity: "Rare",
-        name: "DesignerJacket"
+        title: "DesignerJacket"
     },
     {
         url: `/Traits/Clothing/Rare/DownJacket.png`,
         type: "Clothing",
         rarity: "Rare",
-        name: "DownJacket"
+        title: "DownJacket"
     },
     {
         url: `/Traits/Clothing/Rare/SlavJacket.png`,
         type: "Clothing",
         rarity: "Rare",
-        name: "SlavJacket"
+        title: "SlavJacket"
     },
     {
         url: `/Traits/Clothing/Rare/Toga.png`,
         type: "Clothing",
         rarity: "Rare",
-        name: "Toga"
+        title: "Toga"
     },
     {
         url: `/Traits/Clothing/Rare/VampireCape.png`,
         type: "Clothing",
         rarity: "Rare",
-        name: "VampireCape"
+        title: "VampireCape"
     },
     {
         url: `/Traits/Clothing/SuperRare/Blouse.png`,
         type: "Clothing",
         rarity:"Super rare",
-        name: "Blouse"
+        title: "Blouse"
     },
     {
         url: `/Traits/Clothing/SuperRare/PromKing.png`,
         type: "Clothing",
         rarity:"Super rare",
-        name: "PromKing"
+        title: "PromKing"
     },
     {
         url: `/Traits/Clothing/SuperRare/SpaceSuit.png`,
         type: "Clothing",
         rarity:"Super rare",
-        name: "SpaceSuit"
+        title: "SpaceSuit"
     },
     {
         url: `/Traits/Clothing/SuperRare/TweedSuit.png`,
         type: "Clothing",
         rarity:"Super rare",
-        name: "TweedSuit"
+        title: "TweedSuit"
     },
     {
         url: `/Traits/Clothing/Uncommon/Chain.png`,
         type: "Clothing",
         rarity: "Uncommon",
-        name: "Chain"
+        title: "Chain"
     },
     {
         url: `/Traits/Clothing/Uncommon/Engineer.png`,
         type: "Clothing",
         rarity: "Uncommon",
-        name: "Engineer"
+        title: "Engineer"
     },
     {
         url: `/Traits/Clothing/Uncommon/FairyWings.png`,
         type: "Clothing",
         rarity: "Uncommon",
-        name: "FairyWings"
+        title: "FairyWings"
     },
     {
         url: `/Traits/Clothing/Uncommon/FootballJerseyBlueWhite.png`,
         type: "Clothing",
         rarity: "Uncommon",
-        name: "FootballJerseyBlueWhite"
+        title: "FootballJerseyBlueWhite"
     },
     {
         url: `/Traits/Clothing/Uncommon/FootballJerseyRedBlue.png`,
         type: "Clothing",
         rarity: "Uncommon",
-        name: "FootballJerseyRedBlue"
+        title: "FootballJerseyRedBlue"
     },
     {
         url: `/Traits/Clothing/Uncommon/LeatherJacket.png`,
         type: "Clothing",
         rarity: "Uncommon",
-        name: "LeatherJacket"
+        title: "LeatherJacket"
     },
     {
         url: `/Traits/Clothing/Uncommon/Mummy.png`,
         type: "Clothing",
         rarity: "Uncommon",
-        name: "Mummy"
+        title: "Mummy"
     },
     {
         url: `/Traits/Clothing/Uncommon/RainJacket.png`,
         type: "Clothing",
         rarity: "Uncommon",
-        name: "RainJacket"
+        title: "RainJacket"
     },
     {
         url: `/Traits/Clothing/Uncommon/XmasSweater.png`,
         type: "Clothing",
         rarity: "Uncommon",
-        name: "XmasSweater"
+        title: "XmasSweater"
     },
     {
         url: `/Traits/Fur/Common/Black.png`,
         type: "Fur",
         rarity: "Common",
-        name: "Black"
+        title: "Black"
 
     },
     {
         url: `/Traits/Fur/Common/Blue.png`,
         type: "Fur",
         rarity: "Common",
-        name: "Blue"
+        title: "Blue"
     },
 
     {
         url: `/Traits/Fur/Common/Brown.png`,
         type: "Fur",
         rarity: "Common",
-        name: "Brown"
+        title: "Brown"
 
     },
     {
         url: `/Traits/Fur/Common/Green.png`,
         type: "Fur",
         rarity: "Common",
-        name: "Green"
+        title: "Green"
 
     },
     {
         url: `/Traits/Fur/Common/Purple.png`,
         type: "Fur",
         rarity: "Common",
-        name: "Purple"
+        title: "Purple"
 
     },
     {
         url: `/Traits/Fur/Common/Red.png`,
         type: "Fur",
         rarity: "Common",
-        name: "Red"
+        title: "Red"
     },
 
     {
         url: `/Traits/Fur/Mythic/AcidTrip.png`,
         type: "Fur",
         rarity: "Mythic",
-        name: "AcidTrip"
+        title: "AcidTrip"
     },
     {
         url: `/Traits/Fur/Rare/Antique.png`,
         type: "Fur",
         rarity: "Rare",
-        name: "Antique"
+        title: "Antique"
     },
     {
         url: `/Traits/Fur/Rare/Fox.png`,
         type: "Fur",
         rarity: "Rare",
-        name: "Fox"
+        title: "Fox"
     },
     {
         url: `/Traits/Fur/SuperRare/Gold.png`,
         type: "Fur",
         rarity:"Super rare",
-        name: "Gold"
+        title: "Gold"
     },
     {
         url: `/Traits/Fur/SuperRare/Zombie.png`,
         type: "Fur",
         rarity:"Super rare",
-        name: "Zombie"
+        title: "Zombie"
     },
     {
         url: `/Traits/Fur/Uncommon/BlackScarred.png`,
         type: "Fur",
         rarity: "Uncommon",
-        name: "BlackScarred"
+        title: "BlackScarred"
     },
     {
         url: `/Traits/Fur/Uncommon/BlueScarred.png`,
         type: "Fur",
         rarity: "Uncommon",
-        name: "BlueScarred"
+        title: "BlueScarred"
     },
     {
         url: `/Traits/Fur/Uncommon/BrownScarred.png`,
         type: "Fur",
         rarity: "Uncommon",
-        name: "BrownScarred"
+        title: "BrownScarred"
     },
     {
         url: `/Traits/Fur/Uncommon/GreenScarred.png`,
         type: "Fur",
         rarity: "Uncommon",
-        name: "GreenScarred"
+        title: "GreenScarred"
     },
     {
         url: `/Traits/Fur/Uncommon/PurpleScarred.png`,
         type: "Fur",
         rarity: "Uncommon",
-        name: "PurpleScarred"
+        title: "PurpleScarred"
     },
     {
         url: `/Traits/Fur/Uncommon/RedScarred.png`,
         type: "Fur",
         rarity: "Uncommon",
-        name: "RedScarred"
+        title: "RedScarred"
     },
     {
         url: `/Traits/Head/Common/Belt.png`,
         type: "Head",
         rarity: "Common",
-        name: "Belt"
+        title: "Belt"
     },
 
     {
         url: `/Traits/Head/Common/Box.png`,
         type: "Head",
         rarity: "Common",
-        name: "Box"
+        title: "Box"
     },
 
     {
         url: `/Traits/Head/Common/IceCream.png`,
         type: "Head",
         rarity: "Common",
-        name: "IceCream"
+        title: "IceCream"
 
     },
     {
         url: `/Traits/Head/Common/LampShade.png`,
         type: "Head",
         rarity: "Common",
-        name: "LampShade"
+        title: "LampShade"
 
     },
     {
         url: `/Traits/Head/Common/PaintCan.png`,
         type: "Head",
         rarity: "Common",
-        name: "PaintCan"
+        title: "PaintCan"
 
     },
     {
         url: `/Traits/Head/Common/Pandos.png`,
         type: "Head",
         rarity: "Common",
-        name: "Pandos"
+        title: "Pandos"
 
     },
     {
         url: `/Traits/Head/Common/Plunger.png`,
         type: "Head",
         rarity: "Common",
-        name: "Plunger"
+        title: "Plunger"
 
     },
     {
         url: `/Traits/Head/Common/Pot.png`,
         type: "Head",
         rarity: "Common",
-        name: "Pot"
+        title: "Pot"
     },
 
     {
         url: `/Traits/Head/Common/Takeout.png`,
         type: "Head",
         rarity: "Common",
-        name: "Takeout"
+        title: "Takeout"
 
     },
     {
         url: `/Traits/Head/Common/Tamborine.png`,
         type: "Head",
         rarity: "Common",
-        name: "Tamborine"
+        title: "Tamborine"
 
     },
     {
         url: `/Traits/Head/Common/TrashLid.png`,
         type: "Head",
         rarity: "Common",
-        name: "TrashLid"
+        title: "TrashLid"
 
     },
     {
         url: `/Traits/Head/Mythic/Mythic.png`,
         type: "Head",
         rarity: "Mythic",
-        name: "Mythic"
+        title: "Mythic"
     },
     {
         url: `/Traits/Head/Rare/Balaclava.png`,
         type: "Head",
         rarity: "Rare",
-        name: "Balaclava"
+        title: "Balaclava"
     },
     {
         url: `/Traits/Head/Rare/Beanie.png`,
         type: "Head",
         rarity: "Rare",
-        name: "Beanie"
+        title: "Beanie"
     },
     {
         url: `/Traits/Head/Rare/DegenServiceHat.png`,
         type: "Head",
         rarity: "Rare",
-        name: "DegenServiceHat"
+        title: "DegenServiceHat"
     },
     {
         url: `/Traits/Head/Rare/Flatcap.png`,
         type: "Head",
         rarity: "Rare",
-        name: "Flatcap"
+        title: "Flatcap"
     },
     {
         url: `/Traits/Head/Rare/Sombrero.png`,
         type: "Head",
         rarity: "Rare",
-        name: "Sombrero"
+        title: "Sombrero"
     },
     {
         url: `/Traits/Head/Rare/TomatoSoup.png`,
         type: "Head",
         rarity: "Rare",
-        name: "TomatoSoup"
+        title: "TomatoSoup"
     },
     {
         url: `/Traits/Head/SuperRare/Crown.png`,
         type: "Head",
         rarity:"Super rare",
-        name: "Crown"
+        title: "Crown"
     },
     {
         url: `/Traits/Head/SuperRare/SteampunkHat.png`,
         type: "Head",
         rarity:"Super rare",
-        name: "SteampunkHat"
+        title: "SteampunkHat"
     },
     {
         url: `/Traits/Head/SuperRare/Urn.png`,
         type: "Head",
         rarity:"Super rare",
-        name: "Urn"
+        title: "Urn"
     },
     {
         url: `/Traits/Head/Uncommon/Beret.png`,
         type: "Head",
         rarity: "Uncommon",
-        name: "Beret"
+        title: "Beret"
     },
     {
         url: `/Traits/Head/Uncommon/Boot.png`,
         type: "Head",
         rarity: "Uncommon",
-        name: "Boot"
+        title: "Boot"
     },
     {
         url: `/Traits/Head/Uncommon/Colander.png`,
         type: "Head",
         rarity: "Uncommon",
-        name: "Colander"
+        title: "Colander"
     },
     {
         url: `/Traits/Head/Uncommon/Headband.png`,
         type: "Head",
         rarity: "Uncommon",
-        name: "Headband"
+        title: "Headband"
     },
     {
         url: `/Traits/Head/Uncommon/PaperBag.png`,
         type: "Head",
         rarity: "Uncommon",
-        name: "PaperBag"
+        title: "PaperBag"
     },
     {
         url: `/Traits/Head/Uncommon/PickleJar.png`,
         type: "Head",
         rarity: "Uncommon",
-        name: "PickleJar"
+        title: "PickleJar"
     },
     {
         url: `/Traits/Head/Uncommon/PirateHat.png`,
         type: "Head",
         rarity: "Uncommon",
-        name: "PirateHat"
+        title: "PirateHat"
     },
     {
         url: `/Traits/Head/Uncommon/RoadCone.png`,
         type: "Head",
         rarity: "Uncommon",
-        name: "RoadCone"
+        title: "RoadCone"
     },
     {
         url: `/Traits/Mouth/Common/BirdFoot.png`,
         type: "Mouth",
         rarity: "Common",
-        name: "BirdFoot"
+        title: "BirdFoot"
 
     },
     {
         url: `/Traits/Mouth/Common/BurntSpoon.png`,
         type: "Mouth",
         rarity: "Common",
-        name: "BurntSpoon"
+        title: "BurntSpoon"
 
     },
     {
         url: `/Traits/Mouth/Common/Lollipop.png`,
         type: "Mouth",
         rarity: "Common",
-        name: "Lollipop"
+        title: "Lollipop"
 
     },
     {
         url: `/Traits/Mouth/Common/MatchStick.png`,
         type: "Mouth",
         rarity: "Common",
-        name: "MatchStick"
+        title: "MatchStick"
 
     },
     {
         url: `/Traits/Mouth/Common/RatTail.png`,
         type: "Mouth",
         rarity: "Common",
-        name: "RatTail"
+        title: "RatTail"
 
     },
     {
         url: `/Traits/Mouth/Rare/Cigar.png`,
         type: "Mouth",
         rarity: "Rare",
-        name: "Cigar"
+        title: "Cigar"
     },
     {
         url: `/Traits/Mouth/Rare/WarMedal.png`,
         type: "Mouth",
         rarity: "Rare",
-        name: "WarMedal"
+        title: "WarMedal"
     },
     {
         url: `/Traits/Mouth/SuperRare/DirtyFiat.png`,
         type: "Mouth",
         rarity:"Super rare",
-        name: "DirtyFiat"
+        title: "DirtyFiat"
     },
     {
         url: `/Traits/Mouth/SuperRare/Joint.png`,
         type: "Mouth",
         rarity:"Super rare",
-        name: "Joint"
+        title: "Joint"
     },
     {
         url: `/Traits/Mouth/Uncommon/Acid.png`,
         type: "Mouth",
         rarity: "Uncommon",
-        name: "Acid"
+        title: "Acid"
     },
     {
         url: `/Traits/Mouth/Uncommon/Cigarette.png`,
         type: "Mouth",
         rarity: "Uncommon",
-        name: "Cigarette"
+        title: "Cigarette"
     },
     {
         url: `/Traits/Mouth/Uncommon/CrayonShiv.png`,
         type: "Mouth",
         rarity: "Uncommon",
-        name: "CrayonShiv"
+        title: "CrayonShiv"
     },
     {
         url: `/Traits/Mouth/Uncommon/Dynamite.png`,
         type: "Mouth",
         rarity: "Uncommon",
-        name: "Dynamite"
+        title: "Dynamite"
     },
 ]
