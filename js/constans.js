@@ -2,267 +2,6 @@ export const RARITY_ORDER = ["Common","Uncommon","Rare", "Super rare", "Mythic"]
 
 export const TRAITS_DATA = [
     {
-        url: `/Traits/Background/Common/Black.png`,
-        type: "Background",
-        rarity: "Common",
-        title: "Black"
-
-    },
-    {
-        url: `/Traits/Background/Common/Blue.png`,
-        type: "Background",
-        rarity: "Common",
-        title: "Blue"
-    },
-
-    {
-        url: `/Traits/Background/Common/Green.png`,
-        type: "Background",
-        rarity: "Common",
-        title: "Green"
-    },
-    {
-        url: `/Traits/Background/Common/Purple.png`,
-        type: "Background",
-        rarity: "Common",
-        title: "Purple"
-    },
-    {
-        url: `/Traits/Background/Common/Red.png`,
-        type: "Background",
-        rarity: "Common",
-        title: "Red"
-    },
-
-    {
-        url: `/Traits/Background/Common/Yellow.png`,
-        type: "Background",
-        rarity: "Common",
-        title: "Yellow"
-    },
-    {
-        url: `/Traits/Clothing/Common/Bandana.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "Bandana"
-
-    },
-    {
-        url: `/Traits/Clothing/Common/BumBag.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "BumBag"
-
-    },
-    {
-        url: `/Traits/Clothing/Common/DenimVest.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "DenimVest"
-
-    },
-    {
-        url: `/Traits/Clothing/Common/DressShirt.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "DressShirt"
-
-    },
-    {
-        url: `/Traits/Clothing/Common/FishingVest.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "FishingVest"
-
-    },
-    {
-        url: `/Traits/Clothing/Common/HockeyPads.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "HockeyPads"
-
-    },
-    {
-        url: `/Traits/Clothing/Common/Hoodie.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "Hoodie"
-
-    },
-    {
-        url: `/Traits/Clothing/Common/KnittedVest.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "KnittedVest"
-
-    },
-    {
-        url: `/Traits/Clothing/Common/OpenShirt.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "OpenShirt"
-
-    },
-    {
-        url: `/Traits/Clothing/Common/Overalls.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "Overalls"
-
-    },
-    {
-        url: `/Traits/Clothing/Common/Singlet.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "Singlet"
-
-    },
-    {
-        url: `/Traits/Clothing/Common/T-Shirt.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "T-Shirt"
-
-    },
-    {
-        url: `/Traits/Clothing/Common/TurtleNeck.png`,
-        type: "Clothing",
-        rarity: "Common",
-        title: "TurtleNeck"
-    },
-    {
-        url: `/Traits/Clothing/Mythic/Admiral.png`,
-        type: "Clothing",
-        rarity: "Mythic",
-        title: "Admiral"
-    },
-    {
-        url: `/Traits/Clothing/Rare/ChavJacket.png`,
-        type: "Clothing",
-        rarity: "Rare",
-        title: "ChavJacket"
-    },
-    {
-        url: `/Traits/Clothing/Rare/CrayonFarmer.png`,
-        type: "Clothing",
-        rarity: "Rare",
-        title: "CrayonFarmer"
-    },
-    {
-        url: `/Traits/Clothing/Rare/DegenServicePolo.png`,
-        type: "Clothing",
-        rarity: "Rare",
-        title: "DegenServicePolo"
-    },
-    {
-        url: `/Traits/Clothing/Rare/DesignerJacket.png`,
-        type: "Clothing",
-        rarity: "Rare",
-        title: "DesignerJacket"
-    },
-    {
-        url: `/Traits/Clothing/Rare/DownJacket.png`,
-        type: "Clothing",
-        rarity: "Rare",
-        title: "DownJacket"
-    },
-    {
-        url: `/Traits/Clothing/Rare/SlavJacket.png`,
-        type: "Clothing",
-        rarity: "Rare",
-        title: "SlavJacket"
-    },
-    {
-        url: `/Traits/Clothing/Rare/Toga.png`,
-        type: "Clothing",
-        rarity: "Rare",
-        title: "Toga"
-    },
-    {
-        url: `/Traits/Clothing/Rare/VampireCape.png`,
-        type: "Clothing",
-        rarity: "Rare",
-        title: "VampireCape"
-    },
-    {
-        url: `/Traits/Clothing/SuperRare/Blouse.png`,
-        type: "Clothing",
-        rarity:"Super rare",
-        title: "Blouse"
-    },
-    {
-        url: `/Traits/Clothing/SuperRare/PromKing.png`,
-        type: "Clothing",
-        rarity:"Super rare",
-        title: "PromKing"
-    },
-    {
-        url: `/Traits/Clothing/SuperRare/SpaceSuit.png`,
-        type: "Clothing",
-        rarity:"Super rare",
-        title: "SpaceSuit"
-    },
-    {
-        url: `/Traits/Clothing/SuperRare/TweedSuit.png`,
-        type: "Clothing",
-        rarity:"Super rare",
-        title: "TweedSuit"
-    },
-    {
-        url: `/Traits/Clothing/Uncommon/Chain.png`,
-        type: "Clothing",
-        rarity: "Uncommon",
-        title: "Chain"
-    },
-    {
-        url: `/Traits/Clothing/Uncommon/Engineer.png`,
-        type: "Clothing",
-        rarity: "Uncommon",
-        title: "Engineer"
-    },
-    {
-        url: `/Traits/Clothing/Uncommon/FairyWings.png`,
-        type: "Clothing",
-        rarity: "Uncommon",
-        title: "FairyWings"
-    },
-    {
-        url: `/Traits/Clothing/Uncommon/FootballJerseyBlueWhite.png`,
-        type: "Clothing",
-        rarity: "Uncommon",
-        title: "FootballJerseyBlueWhite"
-    },
-    {
-        url: `/Traits/Clothing/Uncommon/FootballJerseyRedBlue.png`,
-        type: "Clothing",
-        rarity: "Uncommon",
-        title: "FootballJerseyRedBlue"
-    },
-    {
-        url: `/Traits/Clothing/Uncommon/LeatherJacket.png`,
-        type: "Clothing",
-        rarity: "Uncommon",
-        title: "LeatherJacket"
-    },
-    {
-        url: `/Traits/Clothing/Uncommon/Mummy.png`,
-        type: "Clothing",
-        rarity: "Uncommon",
-        title: "Mummy"
-    },
-    {
-        url: `/Traits/Clothing/Uncommon/RainJacket.png`,
-        type: "Clothing",
-        rarity: "Uncommon",
-        title: "RainJacket"
-    },
-    {
-        url: `/Traits/Clothing/Uncommon/XmasSweater.png`,
-        type: "Clothing",
-        rarity: "Uncommon",
-        title: "XmasSweater"
-    },
-    {
         url: `/Traits/Fur/Common/Black.png`,
         type: "Fur",
         rarity: "Common",
@@ -376,7 +115,6 @@ export const TRAITS_DATA = [
         rarity: "Common",
         title: "Belt"
     },
-
     {
         url: `/Traits/Head/Common/Box.png`,
         type: "Head",
@@ -448,10 +186,10 @@ export const TRAITS_DATA = [
 
     },
     {
-        url: `/Traits/Head/Mythic/Mythic.png`,
+        url: `/Traits/Head/Mythic/SpaceHelmet.png`,
         type: "Head",
         rarity: "Mythic",
-        title: "Mythic"
+        title: "Space Helmet"
     },
     {
         url: `/Traits/Head/Rare/Balaclava.png`,
@@ -556,6 +294,227 @@ export const TRAITS_DATA = [
         title: "RoadCone"
     },
     {
+        url: `/Traits/Body/Common/Bandana.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "Bandana"
+
+    },
+    {
+        url: `/Traits/Body/Common/BumBag.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "BumBag"
+
+    },
+    {
+        url: `/Traits/Body/Common/DenimVest.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "DenimVest"
+
+    },
+    {
+        url: `/Traits/Body/Common/DressShirt.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "DressShirt"
+
+    },
+    {
+        url: `/Traits/Body/Common/FishingVest.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "FishingVest"
+
+    },
+    {
+        url: `/Traits/Body/Common/HockeyPads.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "HockeyPads"
+
+    },
+    {
+        url: `/Traits/Body/Common/Hoodie.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "Hoodie"
+
+    },
+    {
+        url: `/Traits/Body/Common/KnittedVest.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "KnittedVest"
+
+    },
+    {
+        url: `/Traits/Body/Common/OpenShirt.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "OpenShirt"
+
+    },
+    {
+        url: `/Traits/Body/Common/Overalls.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "Overalls"
+
+    },
+    {
+        url: `/Traits/Body/Common/Singlet.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "Singlet"
+
+    },
+    {
+        url: `/Traits/Body/Common/T-Shirt.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "T-Shirt"
+
+    },
+    {
+        url: `/Traits/Body/Common/TurtleNeck.png`,
+        type: "Body",
+        rarity: "Common",
+        title: "TurtleNeck"
+    },
+    {
+        url: `/Traits/Body/Mythic/Admiral.png`,
+        type: "Body",
+        rarity: "Mythic",
+        title: "Admiral"
+    },
+    {
+        url: `/Traits/Body/Rare/ChavJacket.png`,
+        type: "Body",
+        rarity: "Rare",
+        title: "ChavJacket"
+    },
+    {
+        url: `/Traits/Body/Rare/CrayonFarmer.png`,
+        type: "Body",
+        rarity: "Rare",
+        title: "CrayonFarmer"
+    },
+    {
+        url: `/Traits/Body/Rare/DegenServicePolo.png`,
+        type: "Body",
+        rarity: "Rare",
+        title: "DegenServicePolo"
+    },
+    {
+        url: `/Traits/Body/Rare/DesignerJacket.png`,
+        type: "Body",
+        rarity: "Rare",
+        title: "DesignerJacket"
+    },
+    {
+        url: `/Traits/Body/Rare/DownJacket.png`,
+        type: "Body",
+        rarity: "Rare",
+        title: "DownJacket"
+    },
+    {
+        url: `/Traits/Body/Rare/SlavJacket.png`,
+        type: "Body",
+        rarity: "Rare",
+        title: "SlavJacket"
+    },
+    {
+        url: `/Traits/Body/Rare/Toga.png`,
+        type: "Body",
+        rarity: "Rare",
+        title: "Toga"
+    },
+    {
+        url: `/Traits/Body/Rare/VampireCape.png`,
+        type: "Body",
+        rarity: "Rare",
+        title: "VampireCape"
+    },
+    {
+        url: `/Traits/Body/SuperRare/Blouse.png`,
+        type: "Body",
+        rarity:"Super rare",
+        title: "Blouse"
+    },
+    {
+        url: `/Traits/Body/SuperRare/PromKing.png`,
+        type: "Body",
+        rarity:"Super rare",
+        title: "PromKing"
+    },
+    {
+        url: `/Traits/Body/SuperRare/SpaceSuit.png`,
+        type: "Body",
+        rarity:"Super rare",
+        title: "SpaceSuit"
+    },
+    {
+        url: `/Traits/Body/SuperRare/TweedSuit.png`,
+        type: "Body",
+        rarity:"Super rare",
+        title: "TweedSuit"
+    },
+    {
+        url: `/Traits/Body/Uncommon/Chain.png`,
+        type: "Body",
+        rarity: "Uncommon",
+        title: "Chain"
+    },
+    {
+        url: `/Traits/Body/Uncommon/Engineer.png`,
+        type: "Body",
+        rarity: "Uncommon",
+        title: "Engineer"
+    },
+    {
+        url: `/Traits/Body/Uncommon/FairyWings.png`,
+        type: "Body",
+        rarity: "Uncommon",
+        title: "FairyWings"
+    },
+    {
+        url: `/Traits/Body/Uncommon/FootballJerseyBlueWhite.png`,
+        type: "Body",
+        rarity: "Uncommon",
+        title: "FootballJerseyBlueWhite"
+    },
+    {
+        url: `/Traits/Body/Uncommon/FootballJerseyRedBlue.png`,
+        type: "Body",
+        rarity: "Uncommon",
+        title: "FootballJerseyRedBlue"
+    },
+    {
+        url: `/Traits/Body/Uncommon/LeatherJacket.png`,
+        type: "Body",
+        rarity: "Uncommon",
+        title: "LeatherJacket"
+    },
+    {
+        url: `/Traits/Body/Uncommon/Mummy.png`,
+        type: "Body",
+        rarity: "Uncommon",
+        title: "Mummy"
+    },
+    {
+        url: `/Traits/Body/Uncommon/RainJacket.png`,
+        type: "Body",
+        rarity: "Uncommon",
+        title: "RainJacket"
+    },
+    {
+        url: `/Traits/Body/Uncommon/XmasSweater.png`,
+        type: "Body",
+        rarity: "Uncommon",
+        title: "XmasSweater"
+    },{
         url: `/Traits/Mouth/Common/BirdFoot.png`,
         type: "Mouth",
         rarity: "Common",
@@ -637,5 +596,43 @@ export const TRAITS_DATA = [
         type: "Mouth",
         rarity: "Uncommon",
         title: "Dynamite"
+    },
+    {
+        url: `/Traits/Background/Common/Black.png`,
+        type: "Background",
+        rarity: "Common",
+        title: "Black"
+
+    },
+    {
+        url: `/Traits/Background/Common/Blue.png`,
+        type: "Background",
+        rarity: "Common",
+        title: "Blue"
+    },
+
+    {
+        url: `/Traits/Background/Common/Green.png`,
+        type: "Background",
+        rarity: "Common",
+        title: "Green"
+    },
+    {
+        url: `/Traits/Background/Common/Purple.png`,
+        type: "Background",
+        rarity: "Common",
+        title: "Purple"
+    },
+    {
+        url: `/Traits/Background/Common/Red.png`,
+        type: "Background",
+        rarity: "Common",
+        title: "Red"
+    },
+    {
+        url: `/Traits/Background/Common/Yellow.png`,
+        type: "Background",
+        rarity: "Common",
+        title: "Yellow"
     },
 ]

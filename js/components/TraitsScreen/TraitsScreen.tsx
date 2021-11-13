@@ -7,14 +7,38 @@ import {TraitImage, TraitSource} from "./TraitImage/TraitImage";
 const TraitsScreen = () => {
     const [type, setType] = useState("All")
     const [rarity, setRarity] = useState<string[]>(["All"])
-    let sortedTraits: TraitSource[] = []
-    RARITY_ORDER.map(e => {
-        sortedTraits = sortedTraits.concat(TRAITS_DATA.filter(trait => trait.rarity === e))
-    })
+    const sortFunc = (a:any, b:any) => RARITY_ORDER.indexOf(a.rarity) - RARITY_ORDER.indexOf(b.rarity)
+    const fur = TRAITS_DATA.filter(el => el.type === "Fur").sort(sortFunc)
+    const head = TRAITS_DATA.filter(el => el.type === "Head").sort(sortFunc)
+    const body = TRAITS_DATA.filter(el => el.type === "Body").sort(sortFunc)
+    const glasses = TRAITS_DATA.filter(el => el.type === "Glasses").sort(sortFunc)
+    const mouth = TRAITS_DATA.filter(el => el.type === "Mouth").sort(sortFunc)
+    const bg = TRAITS_DATA.filter(el => el.type === "Background").sort(sortFunc)
+    const sortedTraits: TraitSource[] = [...fur, ...head, ...body, ...glasses, ...mouth, ...bg]
+
     const filteredTraits = useMemo(() => {
         let traits = sortedTraits;
         if (type != "All") {
-            traits = traits.filter(e => e.type === type)
+            switch (type) {
+                case "Fur":
+                    traits = [...fur]
+                    break
+                case "Head":
+                    traits = [...head]
+                    break
+                case "Body":
+                    traits = [...body]
+                    break
+                case "Glasses":
+                    traits = [...glasses]
+                    break
+                case "Mouth":
+                    traits = [...mouth]
+                    break
+                case "Background":
+                    traits = [...bg]
+                    break
+            }
         }
         if (rarity.length > 0 && !rarity.includes("All")) {
             traits = traits.filter(e => e.rarity && rarity.includes(e.rarity))
@@ -29,10 +53,11 @@ const TraitsScreen = () => {
                 <div className={styles.menuContainer}>
                     <select value={type} onChange={(e) => setType(e.target.value)} className={styles.select}>
                         <option>All</option>
-                        <option>Head</option>
-                        <option>Clothing</option>
-                        <option>Mouth</option>
                         <option>Fur</option>
+                        <option>Head</option>
+                        <option>Body</option>
+                        <option>Glasses</option>
+                        <option>Mouth</option>
                         <option>Background</option>
                     </select>
                     <div className={styles.checkboxContainer}>
