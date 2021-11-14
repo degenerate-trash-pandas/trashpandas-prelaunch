@@ -1,4 +1,4 @@
-export const RARITY_ORDER = ["Common","Uncommon","Rare", "Super rare", "Mythic"]
+export const RARITY_ORDER = ["Common", "Uncommon","Rare", "Super Rare", "Mythic"]
 
 export const TRAITS_DATA = [
     {
@@ -173,25 +173,25 @@ export const TRAITS_DATA = [
         url: "/Traits/Body/SuperRare/Blouse.png",
         title: "Blouse",
         type: "Body",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Body/SuperRare/PromKing.png",
         title: "Prom King",
         type: "Body",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Body/SuperRare/SpaceSuit.png",
         title: "Space Suit",
         type: "Body",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Body/SuperRare/TweedSuit.png",
         title: "Tweed Suit",
         type: "Body",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Body/Uncommon/Chain.png",
@@ -305,13 +305,13 @@ export const TRAITS_DATA = [
         url: "/Traits/Fur/SuperRare/Gold.png",
         title: "Gold",
         type: "Fur",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Fur/SuperRare/Zombie.png",
         title: "Zombie",
         type: "Fur",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Fur/Uncommon/BlackScarred.png",
@@ -377,7 +377,7 @@ export const TRAITS_DATA = [
         url: "/Traits/Glasses/SuperRare/Monocle.png",
         title: "Monocle",
         type: "Glasses",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Glasses/Uncommon/SwimmingGoggles.png",
@@ -509,25 +509,25 @@ export const TRAITS_DATA = [
         url: "/Traits/Head/SuperRare/Crown.png",
         title: "Crown",
         type: "Head",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Head/SuperRare/SteampunkHat.png",
         title: "Steampunk Hat",
         type: "Head",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Head/SuperRare/UnicornHeadband.png",
         title: "Unicorn Headband",
         type: "Head",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Head/SuperRare/Urn.png",
         title: "Urn",
         type: "Head",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Head/Uncommon/Beret.png",
@@ -641,13 +641,13 @@ export const TRAITS_DATA = [
         url: "/Traits/Mouth/SuperRare/DirtyFiat.png",
         title: "Dirty Fiat",
         type: "Mouth",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Mouth/SuperRare/Joint.png",
         title: "Joint",
         type: "Mouth",
-        rarity: "SuperRare"
+        rarity: "Super Rare"
     },
     {
         url: "/Traits/Mouth/Uncommon/Acid.png",

@@ -64,7 +64,7 @@ const TraitsScreen = () => {
                         </select>
                     </div>
                     <div className={styles.checkboxContainer}>
-                        {["All", "Common", "Uncommon", "Rare", "Super rare", "Mythic"].map((e, idx) => (
+                        {["All", "Common", "Uncommon", "Rare", "Super Rare", "Mythic"].map((e, idx) => (
                             <div className={styles.checkboxItem} key={idx}>
                                 <input
                                     type="checkbox"
