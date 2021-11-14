@@ -1,0 +1,174 @@
+.container {
+    background-color: black;
+    justify-content: inherit;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title > img {
+    width: 100%;
+    height: auto;
+}
+
+.subtitle {
+    font-size: 2em;
+    text-align: right;
+    margin-top: 0;
+}
+
+.offsetContainer {
+    flex: 1;
+}
+
+.leftContainer {
+    flex: 1;
+}
+
+.rightContainer {
+    flex: 5;
+    overflow-y: scroll;
+}
+
+.rightContainer::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.select {
+    width: 100%;
+    background-color: transparent;
+    background-image: url("/assets/arrow.svg");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 15px;
+    background-size: 20px;
+    color: white;
+    height: 60px;
+    border: solid 0.1em;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: "Courier New";
+    font-size: 2em;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+.select > option:first-child {
+    border-top: transparent;
+}
+
+.select > option {
+    background-color: black;
+    color: white;
+    font-family: "Courier New";
+}
+
+.checkboxContainer {
+    margin-top: 50px;
+}
+
+.checkboxItem {
+    margin-top: 10px;
+}
+
+.checkboxLabel {
+    font-size: 2em;
+}
+
+.checkboxMobileContainer {
+    display: none;
+}
+
+
+.myMasonryGrid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    width: auto;
+}
+
+.myMasonryGridColumn {
+    padding-left: 60px; /* gutter size */
+    background-clip: padding-box;
+}
+
+/* Style your items */
+.myMasonryGridColumn > div { /* change div to reference your elements you put in <Masonry> */
+    margin-bottom: 30px;
+}
+
+.myMasonryGridColumn > div > img { /* change div to reference your elements you put in <Masonry> */
+    width: 100%;
+    height: auto;
+}
+.selectContainer {
+    width: 100%;
+}
+.menuContainer{
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .title {
+        margin: 15px;
+    }
+
+    .select {
+        height: 30px;
+        font-size: 1em;
+        flex: 1;
+        background-position-y: 8px;
+        background-size: 10px;
+        padding-left: 10px;
+    }
+    .select:first-child{
+        margin-right: 10px;
+    }
+
+    .checkboxMobileContainer {
+        display: inherit;
+        flex: 1;
+        margin: 0;
+    }
+
+    .checkboxMobileContainer > select {
+        margin-right: 0 !important;
+    }
+
+    .checkboxContainer {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .myMasonryGridColumn:first-child {
+        padding-right: 5px; /* gutter size */
+        padding-left: 0px; /* gutter size */
+        background-clip: padding-box;
+    }
+    .myMasonryGridColumn:last-child {
+        padding-left: 5px; /* gutter size */
+        background-clip: padding-box;
+    }
+
+    .myMasonryGridColumn > div > img { /* change div to reference your elements you put in <Masonry> */
+        width: 100%;
+        height: auto;
+    }
+    .selectContainer{
+        width: calc(50% - 5px);
+        margin-right: 10px;
+    }
+    .menuContainer{
+        display: flex;
+        margin-bottom: 15px;
+    }
+}
