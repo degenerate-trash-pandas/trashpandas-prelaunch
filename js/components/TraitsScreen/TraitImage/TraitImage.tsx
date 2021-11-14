@@ -16,7 +16,7 @@ export const TraitImage = (props: TraitSource) => {
     return (
         <div>
             <img src={props.url} />
-            <p>{capitalize(props.title)}</p>
+            <p className={"capitalize"}>{capitalize(props.title)}</p>
         </div>
     )
 }

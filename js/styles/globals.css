@@ -121,6 +121,9 @@ p > b {
 #magic-menu.active {
     left: 0;
 }
+.capitalize {
+    text-transform: capitalize;
+}
 input[type="checkbox" i] {
     background-color: initial;
     cursor: pointer;
