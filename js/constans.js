@@ -45,31 +45,31 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Body/Common/BumBag.png",
-        title: "BumBag",
+        title: "Bum Bag",
         type: "Body",
         rarity: "Common"
     },
     {
         url: "/Traits/Body/Common/DenimVest.png",
-        title: "DenimVest",
+        title: "Denim Vest",
         type: "Body",
         rarity: "Common"
     },
     {
         url: "/Traits/Body/Common/DressShirt.png",
-        title: "DressShirt",
+        title: "Dress Shirt",
         type: "Body",
         rarity: "Common"
     },
     {
         url: "/Traits/Body/Common/FishingVest.png",
-        title: "FishingVest",
+        title: "Fishing Vest",
         type: "Body",
         rarity: "Common"
     },
     {
         url: "/Traits/Body/Common/HockeyPads.png",
-        title: "HockeyPads",
+        title: "Hockey Pads",
         type: "Body",
         rarity: "Common"
     },
@@ -81,13 +81,13 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Body/Common/KnittedVest.png",
-        title: "KnittedVest",
+        title: "Knitted Vest",
         type: "Body",
         rarity: "Common"
     },
     {
         url: "/Traits/Body/Common/OpenShirt.png",
-        title: "OpenShirt",
+        title: "Open Shirt",
         type: "Body",
         rarity: "Common"
     },
@@ -111,7 +111,7 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Body/Common/TurtleNeck.png",
-        title: "TurtleNeck",
+        title: "Turtle Neck",
         type: "Body",
         rarity: "Common"
     },
@@ -123,37 +123,37 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Body/Rare/ChavJacket.png",
-        title: "ChavJacket",
+        title: "Chav Jacket",
         type: "Body",
         rarity: "Rare"
     },
     {
         url: "/Traits/Body/Rare/CrayonFarmer.png",
-        title: "CrayonFarmer",
+        title: "Crayon Farmer",
         type: "Body",
         rarity: "Rare"
     },
     {
         url: "/Traits/Body/Rare/DegenServicePolo.png",
-        title: "DegenServicePolo",
+        title: "Degen Service Polo",
         type: "Body",
         rarity: "Rare"
     },
     {
         url: "/Traits/Body/Rare/DesignerJacket.png",
-        title: "DesignerJacket",
+        title: "Designer Jacket",
         type: "Body",
         rarity: "Rare"
     },
     {
         url: "/Traits/Body/Rare/DownJacket.png",
-        title: "DownJacket",
+        title: "Down Jacket",
         type: "Body",
         rarity: "Rare"
     },
     {
         url: "/Traits/Body/Rare/SlavJacket.png",
-        title: "SlavJacket",
+        title: "Slav Jacket",
         type: "Body",
         rarity: "Rare"
     },
@@ -165,7 +165,7 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Body/Rare/VampireCape.png",
-        title: "VampireCape",
+        title: "Vampire Cape",
         type: "Body",
         rarity: "Rare"
     },
@@ -177,19 +177,19 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Body/SuperRare/PromKing.png",
-        title: "PromKing",
+        title: "Prom King",
         type: "Body",
         rarity: "SuperRare"
     },
     {
         url: "/Traits/Body/SuperRare/SpaceSuit.png",
-        title: "SpaceSuit",
+        title: "Space Suit",
         type: "Body",
         rarity: "SuperRare"
     },
     {
         url: "/Traits/Body/SuperRare/TweedSuit.png",
-        title: "TweedSuit",
+        title: "Tweed Suit",
         type: "Body",
         rarity: "SuperRare"
     },
@@ -207,25 +207,25 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Body/Uncommon/FairyWings.png",
-        title: "FairyWings",
+        title: "Fairy Wings",
         type: "Body",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Body/Uncommon/FootballJerseyBlueWhite.png",
-        title: "FootballJerseyBlueWhite",
+        title: "Football Jersey Blue White",
         type: "Body",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Body/Uncommon/FootballJerseyRedBlue.png",
-        title: "FootballJerseyRedBlue",
+        title: "Football Jersey Red Blue",
         type: "Body",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Body/Uncommon/LeatherJacket.png",
-        title: "LeatherJacket",
+        title: "Leather Jacket",
         type: "Body",
         rarity: "Uncommon"
     },
@@ -237,13 +237,13 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Body/Uncommon/RainJacket.png",
-        title: "RainJacket",
+        title: "Rain Jacket",
         type: "Body",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Body/Uncommon/XmasSweater.png",
-        title: "XmasSweater",
+        title: "Xmas Sweater",
         type: "Body",
         rarity: "Uncommon"
     },
@@ -285,7 +285,7 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Fur/Mythic/AcidTrip.png",
-        title: "AcidTrip",
+        title: "Acid Trip",
         type: "Fur",
         rarity: "Mythic"
     },
@@ -315,61 +315,61 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Fur/Uncommon/BlackScarred.png",
-        title: "BlackScarred",
+        title: "Black Scarred",
         type: "Fur",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Fur/Uncommon/BlueScarred.png",
-        title: "BlueScarred",
+        title: "Blue Scarred",
         type: "Fur",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Fur/Uncommon/BrownScarred.png",
-        title: "BrownScarred",
+        title: "Brown Scarred",
         type: "Fur",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Fur/Uncommon/GreenScarred.png",
-        title: "GreenScarred",
+        title: "Green Scarred",
         type: "Fur",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Fur/Uncommon/PurpleScarred.png",
-        title: "PurpleScarred",
+        title: "Purple Scarred",
         type: "Fur",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Fur/Uncommon/RedScarred.png",
-        title: "RedScarred",
+        title: "Red Scarred",
         type: "Fur",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Glasses/Common/DesignerGlasses.png",
-        title: "DesignerGlasses",
+        title: "Designer Glasses",
         type: "Glasses",
         rarity: "Common"
     },
     {
         url: "/Traits/Glasses/Common/ReadingGlasses.png",
-        title: "ReadingGlasses",
+        title: "Reading Glasses",
         type: "Glasses",
         rarity: "Common"
     },
     {
         url: "/Traits/Glasses/Rare/SnowGoggles.png",
-        title: "SnowGoggles",
+        title: "Snow Goggles",
         type: "Glasses",
         rarity: "Rare"
     },
     {
         url: "/Traits/Glasses/Rare/StarGlasses.png",
-        title: "StarGlasses",
+        title: "Star Glasses",
         type: "Glasses",
         rarity: "Rare"
     },
@@ -381,13 +381,13 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Glasses/Uncommon/SwimmingGoggles.png",
-        title: "SwimmingGoggles",
+        title: "Swimming Goggles",
         type: "Glasses",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Glasses/Uncommon/TrashVipers.png",
-        title: "TrashVipers",
+        title: "Trash Vipers",
         type: "Glasses",
         rarity: "Uncommon"
     },
@@ -405,19 +405,19 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Head/Common/IceCream.png",
-        title: "IceCream",
+        title: "Ice Cream",
         type: "Head",
         rarity: "Common"
     },
     {
         url: "/Traits/Head/Common/LampShade.png",
-        title: "LampShade",
+        title: "Lamp Shade",
         type: "Head",
         rarity: "Common"
     },
     {
         url: "/Traits/Head/Common/PaintCan.png",
-        title: "PaintCan",
+        title: "Paint Can",
         type: "Head",
         rarity: "Common"
     },
@@ -453,13 +453,13 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Head/Common/TrashLid.png",
-        title: "TrashLid",
+        title: "Trash Lid",
         type: "Head",
         rarity: "Common"
     },
     {
         url: "/Traits/Head/Mythic/SpaceHelmet.png",
-        title: "SpaceHelmet",
+        title: "Space Helmet",
         type: "Head",
         rarity: "Mythic"
     },
@@ -477,7 +477,7 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Head/Rare/DegenServiceHat.png",
-        title: "DegenServiceHat",
+        title: "Degen Service Hat",
         type: "Head",
         rarity: "Rare"
     },
@@ -495,13 +495,13 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Head/Rare/TheGambler.png",
-        title: "TheGambler",
+        title: "The Gambler",
         type: "Head",
         rarity: "Rare"
     },
     {
         url: "/Traits/Head/Rare/TomatoSoup.png",
-        title: "TomatoSoup",
+        title: "Tomato Soup",
         type: "Head",
         rarity: "Rare"
     },
@@ -513,13 +513,13 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Head/SuperRare/SteampunkHat.png",
-        title: "SteampunkHat",
+        title: "Steampunk Hat",
         type: "Head",
         rarity: "SuperRare"
     },
     {
         url: "/Traits/Head/SuperRare/UnicornHeadband.png",
-        title: "UnicornHeadband",
+        title: "Unicorn Headband",
         type: "Head",
         rarity: "SuperRare"
     },
@@ -555,37 +555,37 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Head/Uncommon/PaperBag.png",
-        title: "PaperBag",
+        title: "Paper Bag",
         type: "Head",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Head/Uncommon/PickleJar.png",
-        title: "PickleJar",
+        title: "Pickle Jar",
         type: "Head",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Head/Uncommon/PirateHat.png",
-        title: "PirateHat",
+        title: "Pirate Hat",
         type: "Head",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Head/Uncommon/RoadCone.png",
-        title: "RoadCone",
+        title: "Road Cone",
         type: "Head",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Head/Uncommon/TruckerCap.png",
-        title: "TruckerCap",
+        title: "Trucker Cap",
         type: "Head",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Mouth/Common/BirdFoot.png",
-        title: "BirdFoot",
+        title: "Bird Foot",
         type: "Mouth",
         rarity: "Common"
     },
@@ -597,7 +597,7 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Mouth/Common/BurntSpoon.png",
-        title: "BurntSpoon",
+        title: "Burnt Spoon",
         type: "Mouth",
         rarity: "Common"
     },
@@ -609,13 +609,13 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Mouth/Common/MatchStick.png",
-        title: "MatchStick",
+        title: "Match Stick",
         type: "Mouth",
         rarity: "Common"
     },
     {
         url: "/Traits/Mouth/Common/RatTail.png",
-        title: "RatTail",
+        title: "Rat Tail",
         type: "Mouth",
         rarity: "Common"
     },
@@ -627,19 +627,19 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Mouth/Rare/SmashedBottle.png",
-        title: "SmashedBottle",
+        title: "Smashed Bottle",
         type: "Mouth",
         rarity: "Rare"
     },
     {
         url: "/Traits/Mouth/Rare/WarMedal.png",
-        title: "WarMedal",
+        title: "War Medal",
         type: "Mouth",
         rarity: "Rare"
     },
     {
         url: "/Traits/Mouth/SuperRare/DirtyFiat.png",
-        title: "DirtyFiat",
+        title: "Dirty Fiat",
         type: "Mouth",
         rarity: "SuperRare"
     },
@@ -663,7 +663,7 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Mouth/Uncommon/CrayonShiv.png",
-        title: "CrayonShiv",
+        title: "Crayon Shiv",
         type: "Mouth",
         rarity: "Uncommon"
     },
