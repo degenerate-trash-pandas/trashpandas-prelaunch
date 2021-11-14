@@ -95,7 +95,7 @@ const TraitsScreen = () => {
                     <div className={styles.checkboxMobileContainer}>
                         <select value={rarity[0]} onChange={(e) => setRarity([e.target.value])}
                                 className={styles.select}>
-                            {["All", "Common", "Uncommon", "Rare", "Super rare", "Mythic"].map((e, idx) => (
+                            {["All", "Common", "Uncommon", "Rare", "Super Rare", "Mythic"].map((e, idx) => (
                                 <option key={idx}>{e}</option>
                             ))}
                         </select>
