@@ -183,7 +183,7 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Body/SuperRare/SpaceSuit.png",
-        title: "Space Suit",
+        title: "Spacesuit",
         type: "Body",
         rarity: "Super Rare"
     },
@@ -213,13 +213,13 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Body/Uncommon/FootballJerseyBlueWhite.png",
-        title: "Football Jersey Blue White",
+        title: "Football Jersey - Blue/White",
         type: "Body",
         rarity: "Uncommon"
     },
     {
         url: "/Traits/Body/Uncommon/FootballJerseyRedBlue.png",
-        title: "Football Jersey Red Blue",
+        title: "Football Jersey - Red/Blue",
         type: "Body",
         rarity: "Uncommon"
     },
@@ -411,7 +411,7 @@ export const TRAITS_DATA = [
     },
     {
         url: "/Traits/Head/Common/LampShade.png",
-        title: "Lamp Shade",
+        title: "Lampshade",
         type: "Head",
         rarity: "Common"
     },
