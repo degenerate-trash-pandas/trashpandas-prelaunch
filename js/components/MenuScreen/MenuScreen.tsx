@@ -1,7 +1,8 @@
 import styles from "./MenuScreen.module.css";
 import React from "react";
-
+import { useRouter } from 'next/router'
 const MenuScreen = (props: { fullPageRef: any, onMenuItem: () => void }) => {
+    const router = useRouter()
     const goToSlide = (slide: number) => {
         props.fullPageRef.current.scrollToSlide(slide)
         const menu = document.getElementById("magic-menu")
@@ -30,6 +31,11 @@ const MenuScreen = (props: { fullPageRef: any, onMenuItem: () => void }) => {
                     </h3>
                     <h3 onClick={() => goToSlide(4)}>
                         LAUNCH
+                    </h3>
+                    <h3 onClick={() => {
+                        router.push('/traits')
+                    }}>
+                        TRAITS
                     </h3>
                     <div className={styles.socialIconsContainer}>
                         <a href={"https://discord.gg/qgjK4TmXVm"} target={"_blank"} rel={"noreferrer"}> <img src="/assets/Discord.png"/></a>

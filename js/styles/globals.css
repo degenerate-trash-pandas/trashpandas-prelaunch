@@ -121,6 +121,21 @@ p > b {
 #magic-menu.active {
     left: 0;
 }
+.capitalize {
+    text-transform: capitalize;
+}
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: pointer;
+    font-size: 16px;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    padding: initial;
+    border: initial;
+}
 
 
 @media (max-width: 768px) {
