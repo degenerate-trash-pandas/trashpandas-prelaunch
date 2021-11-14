@@ -11,6 +11,10 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+.title > img {
+    width: 100%;
+    height: auto;
+}
 
 .subtitle {
     font-size: 2em;
@@ -39,6 +43,11 @@
 .select {
     width: 100%;
     background-color: transparent;
+    background-image: url("/assets/arrow.svg");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 15px;
+    background-size: 20px;
     color: white;
     height: 60px;
     border: solid 0.1em;
@@ -46,6 +55,9 @@
     padding-left: 10px;
     font-family: "Courier New";
     font-size: 2em;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
 }
 
 .select > option:first-child {
@@ -96,7 +108,12 @@
     width: 100%;
     height: auto;
 }
-
+.selectContainer {
+    width: 100%;
+}
+.menuContainer{
+    margin-top: 20px;
+}
 @media (max-width: 768px) {
     .title {
         margin: 15px;
@@ -106,9 +123,11 @@
         height: 30px;
         font-size: 1em;
         flex: 1;
+        background-position-y: 8px;
+        background-size: 10px;
+        padding-left: 10px;
     }
     .select:first-child{
-        padding-left: 0;
         margin-right: 10px;
     }
 
@@ -119,7 +138,6 @@
     }
 
     .checkboxMobileContainer > select {
-        padding-left: 0;
         margin-right: 0 !important;
     }
 
@@ -144,6 +162,10 @@
     .myMasonryGridColumn > div > img { /* change div to reference your elements you put in <Masonry> */
         width: 100%;
         height: auto;
+    }
+    .selectContainer{
+        width: calc(50% - 5px);
+        margin-right: 10px;
     }
     .menuContainer{
         display: flex;

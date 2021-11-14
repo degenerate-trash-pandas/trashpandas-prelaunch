@@ -48,18 +48,21 @@ const TraitsScreen = () => {
     return (
         <div className={`screen-container ${styles.container}`}>
             <div className={styles.leftContainer}>
-                <h1 className={styles.title}>Traits</h1>
-                <h3 className={styles.subtitle}>& rarity</h3>
+                <div className={styles.title}>
+                    <img src={"/assets/Title.png"}/>
+                </div>
                 <div className={styles.menuContainer}>
-                    <select value={type} onChange={(e) => setType(e.target.value)} className={styles.select}>
-                        <option>All</option>
-                        <option>Fur</option>
-                        <option>Head</option>
-                        <option>Body</option>
-                        <option>Glasses</option>
-                        <option>Mouth</option>
-                        <option>Background</option>
-                    </select>
+                    <div className={styles.selectContainer}>
+                        <select value={type} onChange={(e) => setType(e.target.value)} className={styles.select}>
+                            <option>All</option>
+                            <option>Fur</option>
+                            <option>Head</option>
+                            <option>Body</option>
+                            <option>Glasses</option>
+                            <option>Mouth</option>
+                            <option>Background</option>
+                        </select>
+                    </div>
                     <div className={styles.checkboxContainer}>
                         {["All", "Common", "Uncommon", "Rare", "Super rare", "Mythic"].map((e, idx) => (
                             <div className={styles.checkboxItem} key={idx}>
@@ -104,7 +107,7 @@ const TraitsScreen = () => {
                     breakpointCols={{
                         default: 3,
                         1100: 3,
-                        700: 2,
+                        764: 2,
                         500: 2
                     }}
                     className={styles.myMasonryGrid}
