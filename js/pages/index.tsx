@@ -9,6 +9,7 @@ import TheGameScreen from "../components/TheGameScreen/TheGameScreen";
 import FreensScreen from "../components/FreenScreen/FreensScreen";
 import FairLaunchScreen from "../components/FairLaunchScreen/FairLaunchScreen";
 import {createRef} from "react";
+import { useRouter } from "next/router";
 
 const Home: NextPage = () => {
     const fullPageRef = createRef<any>();
@@ -23,8 +24,10 @@ const Home: NextPage = () => {
         menu?.classList.remove("active")
         setBinOpen(false)
     }
+    const router = useRouter()
+    const {slide} = router.query
     return (
-        <FullPage className={"full-page-container"} ref={fullPageRef}>
+        <FullPage initialSlide={slide ? Number.parseInt("" + slide) : 0} className={"full-page-container"} ref={fullPageRef}>
             <div className="top-icons-menu">
                 <img src="/assets/Logo.png"/>
                 {binOpen ? (
