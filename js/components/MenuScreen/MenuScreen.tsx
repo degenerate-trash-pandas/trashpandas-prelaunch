@@ -1,13 +1,18 @@
 import styles from "./MenuScreen.module.css";
 import React from "react";
 import { useRouter } from 'next/router'
-const MenuScreen = (props: { fullPageRef: any, onMenuItem: () => void }) => {
+
+const MenuScreen = (props: { fullPageRef: any, onMenuItem: () => void, goToMain?: boolean }) => {
     const router = useRouter()
     const goToSlide = (slide: number) => {
-        props.fullPageRef.current.scrollToSlide(slide)
-        const menu = document.getElementById("magic-menu")
-        menu?.classList.remove("active")
-        props.onMenuItem()
+        if (props.goToMain) {
+            router.push({ pathname: '/', query: { slide: slide } })
+        } else {
+            props.fullPageRef.current.scrollToSlide(slide)
+            const menu = document.getElementById("magic-menu")
+            menu?.classList.remove("active")
+            props.onMenuItem()
+        }
     }
     return (
         <div className={`screen-container ${styles.container}`}>
@@ -38,12 +43,14 @@ const MenuScreen = (props: { fullPageRef: any, onMenuItem: () => void }) => {
                         TRAITS
                     </h3>
                     <div className={styles.socialIconsContainer}>
-                        <a href={"https://discord.gg/qgjK4TmXVm"} target={"_blank"} rel={"noreferrer"}> <img src="/assets/Discord.png"/></a>
-                        <a href={"https://twitter.com/DegenTrashPanda"} target={"_blank"} rel={"noreferrer"}><img src="/assets/Twitter.png"/></a>
+                        <a href={"https://discord.gg/qgjK4TmXVm"} target={"_blank"} rel={"noreferrer"}> <img
+                            src="/assets/Discord.png" /></a>
+                        <a href={"https://twitter.com/DegenTrashPanda"} target={"_blank"} rel={"noreferrer"}><img
+                            src="/assets/Twitter.png" /></a>
                     </div>
                 </div>
             </div>
-            <img className={styles.character} src="/characters/TrashKing.png"/>
+            <img className={styles.character} src="/characters/TrashKing.png" />
         </div>
     )
 }
