@@ -38,7 +38,6 @@ const InitialScreen = () => {
                     <div className={styles.trashTitle}>
                         <img src="/assets/WordLogo.png"/>
                     </div>
-                    <p>The pre-launch site</p>
                     <h2  className={styles.trashSubTitle}>WAGMI</h2>
                 </div>
             </div>
